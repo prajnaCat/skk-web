@@ -1,0 +1,7506 @@
+{   
+  
+  "businessline": {
+    "count": "3",
+    "enum": [{
+        "clientType":"0",
+        "open": true,
+        "value": "openAccount",
+        "label": "个人",
+        "params": {
+          "i_ASSETS_CUSTOMER_TYPE"	: "1",
+          "i_BUSINESS_LINE"	: "02",
+          "i_BUSINESS_SCOPE"	: "B",
+          "i_BUSINESS_TYPE"	: "72BB493737751E85E0530100007F1D9D",
+          "i_CLIENT_MODE"	: "0",
+          "i_CLIENT_REGION"	: "1",
+          "i_CLIENT_TYPE"	: "0",
+          "i_SIMPLE_OPEN"	: "0"
+        },
+        "steplist":
+          [
+            {"pathName":"personalbaseinfo","icon":"el-icon-edit","title":"基本资料","routerIndex":0},
+            {"pathName":"personalappropriateness","icon":"el-icon-notebook-1","title":"适当性资料","routerIndex":1},
+            {"pathName":"personalpersonandbankinfo","icon":"el-icon-bank-card","title":"三类人及银行","routerIndex":2},
+            {"pathName":"personalquestionnaire","icon":"el-icon-notebook-2","title":"问卷评测","routerIndex":3},
+            {"pathName":"personalexchangeinfo","icon":"el-icon-office-building","title":"交易所选择","routerIndex":4},
+            {"pathName":"personalmatch","icon":"el-icon-link","title":"适当性匹配","routerIndex":5},
+            {"pathName":"personalreadfile","icon":"el-icon-document","title":"文件阅读","routerIndex":6},
+            {"pathName":"personalsubmitreview","icon":"el-icon-finished","title":"提交审核","routerIndex":7}
+          ]
+      },
+      {
+        "clientType":"1",
+        "open": true,
+        "value": "openAccount",
+        "label": "一般单位",
+        "params": {
+          "i_ASSETS_CUSTOMER_TYPE"	: "1",
+          "i_BUSINESS_LINE"	: "04",
+          "i_BUSINESS_SCOPE"	: "B",
+          "i_BUSINESS_TYPE"	: "735D9CA0A92F0B90E050F30A1B8D2731",
+          "i_CLIENT_MODE"	: "0",
+          "i_CLIENT_REGION"	: "1",
+          "i_CLIENT_TYPE"	: "1",
+          "i_REGISTRATION_STEP"	: "2",
+          "i_SIMPLE_OPEN"	: "0"
+        },
+        "steplist":
+          [
+            {"pathName":"generalunitbaseinfo","icon":"el-icon-edit","title":"基本资料","routerIndex":0},
+            {"pathName":"generalunitappropriateness","icon":"el-icon-notebook-1","title":"适当性及235","routerIndex":1},
+            {"pathName":"generalunitpersonandbankinfo","icon":"el-icon-bank-card","title":"四类人及银行","routerIndex":2},
+            {"pathName":"generalunitquestionnaire","icon":"el-icon-notebook-2","title":"问卷评测","routerIndex":3},
+            {"pathName":"generalunitexchangeinfo","icon":"el-icon-office-building","title":"交易所选择","routerIndex":4},
+            {"pathName":"generalunitmatch","icon":"el-icon-link","title":"适当性匹配","routerIndex":5},
+            {"pathName":"generalunitreadfile","icon":"el-icon-reading","title":"文件阅读","routerIndex":6},
+            {"pathName":"generalunitsubmitreview","icon":"el-icon-finished","title":"提交审核","routerIndex":7}
+          ]
+      },
+      {
+        "clientType":"3",
+        "open": false,
+        "value": "openAccount",
+        "label": "特殊单位",
+        "params": {
+          "i_ASSETS_CUSTOMER_TYPE"	: "1",
+          "i_BUSINESS_LINE"	: "04",
+          "i_BUSINESS_SCOPE"	: "B",
+          "i_BUSINESS_TYPE"	: "72BEC5418C505E59E0530100007FA3BF",
+          "i_CLIENT_MODE"	: "0",
+          "i_CLIENT_REGION"	: "1",
+          "i_CLIENT_TYPE"	: "3",
+          "i_REGISTRATION_STEP"	: "2",
+          "i_SIMPLE_OPEN"	: "0"
+        },
+        "steplist":[
+          {"pathName":"specialunitbaseinfo","icon":"el-icon-edit","title":"基本资料","routerIndex":0},
+          {"pathName":"specialunithousehold","icon":"el-icon-edit","title":"分户资产","routerIndex":1},
+          {"pathName":"specialunitentrusted","icon":"el-icon-edit","title":"托管投资","routerIndex":2},
+          {"pathName":"specialunitappropriateness","icon":"el-icon-notebook-1","title":"适当性及235信息","routerIndex":3},
+          {"pathName":"specialunitpersonandbankinfo","icon":"el-icon-bank-card","title":"四类人和结算银行","routerIndex":4},
+          {"pathName":"specialunitquestionnaire","icon":"el-icon-notebook-2","title":"问卷评测","routerIndex":5},
+          {"pathName":"specialunitexchangeinfo","icon":"el-icon-office-building","title":"交易所选择","routerIndex":6},
+          {"pathName":"specialunitmatch","icon":"el-icon-link","title":"适当性匹配","routerIndex":7},
+          {"pathName":"readfile","icon":"el-icon-reading","title":"文件阅读","routerIndex":8},
+          {"pathName":"specialunitsubmitreview","icon":"el-icon-finished","title":"提交审核","routerIndex":9}
+        ]
+      },{
+        "clientType":"4",
+        "open": false,
+        "value": "openAccount",
+        "label": "期货资产管理户",
+        "params": {
+          "i_ASSETS_CUSTOMER_TYPE"	: "1",
+          "i_BUSINESS_LINE"	: "04",
+          "i_BUSINESS_SCOPE"	: "B",
+          "i_BUSINESS_TYPE"	: "72BEC5418C505E59E0530100007FA3BF",
+          "i_CLIENT_MODE"	: "0",
+          "i_CLIENT_REGION"	: "1",
+          "i_CLIENT_TYPE"	: "3",
+          "i_REGISTRATION_STEP"	: "2",
+          "i_SIMPLE_OPEN"	: "0"
+        },
+        "steplist":[
+          {"pathName":"specialunitidentityinfo","icon":"el-icon-upload","title":"证件上传","routerIndex":0},
+          {"pathName":"specialunitbaseinfo","icon":"el-icon-edit","title":"基本资料","routerIndex":1},
+          {"pathName":"specialunithousehold","icon":"el-icon-edit","title":"分户资产","routerIndex":2},
+          {"pathName":"specialunitentrusted","icon":"el-icon-edit","title":"托管投资","routerIndex":3},
+          {"pathName":"specialunitpersoninfo","icon":"el-icon-s-custom","title":"四类人","routerIndex":4},
+          {"pathName":"specialunitbankinfo","icon":"el-icon-bank-card","title":"结算银行","routerIndex":5},
+          {"pathName":"specialunitappropriateness","icon":"el-icon-notebook-1","title":"适当性","routerIndex":6},
+          {"pathName":"specialunitquestionnaire","icon":"el-icon-notebook-2","title":"问卷","routerIndex":7},
+          {"pathName":"specialunitexchangeinfo","icon":"el-icon-office-building","title":"交易所","routerIndex":8},
+          {"pathName":"specialunitmatch","icon":"el-icon-s-ticket","title":"匹配","routerIndex":9},
+          {"pathName":"readfile","icon":"el-icon-reading","title":"文件阅读","routerIndex":6}]
+      }]
+  },
+  "holdertype": {
+      "count": "3",
+      "enum": [
+        {
+          "id": "1",
+          "value": "自然人"
+        },
+        {
+          "id": "2",
+          "value": "一般单位"
+        },
+        {
+          "id": "3",
+          "value": "产品"
+        },
+        {
+          "id": "4",
+          "value": "沪市其它账户"
+        }
+      ]
+    },
+    "spottype": {
+      "count": "9",
+      "enum": [
+        {
+          "id": "1",
+          "value": "沪市A股账户"
+        },
+        {
+          "id": "2",
+          "value": "沪市B股账户"
+        },
+        {
+          "id": "3",
+          "value": "沪市基金账户"
+        },
+        {
+          "id": "4",
+          "value": "沪市其它账户"
+        },
+        {
+          "id": "5",
+          "value": "深市A股账户"
+        },
+        {
+          "id": "6",
+          "value": "深市B股账户"
+        },
+        {
+          "id": "7",
+          "value": "深市基金账户"
+        },
+        {
+          "id": "8",
+          "value": "深市其它账户"
+        },
+        {
+          "id": "9",
+          "value": "其它"
+        }
+      ]
+    },
+    "bankid": {
+      "count": "17",
+      "enum": [
+        {
+          "id": "01",
+          "value": "中国工商银行"
+        },
+        {
+          "id": "02",
+          "value": "中国农业银行"
+        },
+        {
+          "id": "03",
+          "value": "中国银行"
+        },
+        {
+          "id": "04",
+          "value": "中国建设银行"
+        },
+        {
+          "id": "05",
+          "value": "交通银行"
+        },
+        {
+          "id": "06",
+          "value": "浦发银行"
+        },
+        {
+          "id": "07",
+          "value": "兴业银行"
+        },
+        {
+          "id": "08",
+          "value": "汇丰银行"
+        },
+        {
+          "id": "09",
+          "value": "光大银行"
+        },
+        {
+          "id": "10",
+          "value": "招商银行"
+        },
+        {
+          "id": "11",
+          "value": "中信银行"
+        },
+        {
+          "id": "12",
+          "value": "民生银行"
+        },
+        {
+          "id": "13",
+          "value": "平安银行"
+        },
+        {
+          "id": "14",
+          "value": "农发银行"
+        },
+        {
+          "id": "15",
+          "value": "星展银行"
+        },
+        {
+          "id": "16",
+          "value": "广发银行"
+        },
+        {
+          "id": "18",
+          "value": "花旗银行"
+        },
+        {
+          "id": "19",
+          "value": "渣打银行"
+        },
+        {
+          "id": "99",
+          "value": "其它"
+        },
+        {
+          "id": "98",
+          "value": "其它1"
+        }
+      ]
+    },
+
+    "profession": {
+      "count": "42",
+      "enum": [
+        {
+          "id": "201",
+          "value": "国家机关、党群组织、企业、事业单位负责人"
+        },
+        {
+          "id": "202",
+          "value": "科学研究人员"
+        },
+        {
+          "id": "203",
+          "value": "信息技术、工程技术、农业技术、卫生专业"
+        },
+        {
+          "id": "204",
+          "value": "经济、金融业务人员"
+        },
+        {
+          "id": "205",
+          "value": "法律专业人员"
+        },
+        {
+          "id": "206",
+          "value": "教学人员，体育工作、新闻出版工作人员"
+        },
+        {
+          "id": "207",
+          "value": "安全保卫和消防人员"
+        },
+        {
+          "id": "208",
+          "value": "邮政和电信业务人员"
+        },
+        {
+          "id": "209",
+          "value": "交通运输、购销、仓储人员"
+        },
+        {
+          "id": "210",
+          "value": "餐饮、旅游服务人员"
+        },
+        {
+          "id": "211",
+          "value": "医疗卫生辅助服务、社会服务和居民生活人员"
+        },
+        {
+          "id": "212",
+          "value": "农、林、牧、渔、水利业生产人员"
+        },
+        {
+          "id": "213",
+          "value": "勘探、矿物开采、金属冶炼、轧制人员"
+        },
+        {
+          "id": "214",
+          "value": "机械制造加工、机械设备修理人员"
+        },
+        {
+          "id": "215",
+          "value": "电子元器件、机电产品及电力设备制造、装配"
+        },
+        {
+          "id": "216",
+          "value": "化工产品、橡胶及塑料制品生产人员"
+        },
+        {
+          "id": "217",
+          "value": "印染、纺织、缝纫人员，皮革制品加工人员"
+        },
+        {
+          "id": "218",
+          "value": "粮油、食品饮料、饲料生产加工人员"
+        },
+        {
+          "id": "219",
+          "value": "烟草及其制品加工人员、药品生产人员"
+        },
+        {
+          "id": "220",
+          "value": "木制品、纸制品、建筑材料、玻璃、陶瓷制品"
+        },
+        {
+          "id": "221",
+          "value": "广播影视作品、工艺美术品、文化体育用品"
+        },
+        {
+          "id": "222",
+          "value": "文化工作、健身娱乐、珠宝业、博彩业、拍卖"
+        },
+        {
+          "id": "223",
+          "value": "废品收购工作人员"
+        },
+        {
+          "id": "224",
+          "value": "电子商务工作人员"
+        },
+        {
+          "id": "225",
+          "value": "离岸公司、国际组织工作人员"
+        },
+        {
+          "id": "226",
+          "value": "个体工商户、私营企业主"
+        },
+        {
+          "id": "227",
+          "value": "工程施工人员"
+        },
+        {
+          "id": "228",
+          "value": "环境监测与废物处理人员"
+        },
+        {
+          "id": "229",
+          "value": "检验、计量人员"
+        },
+        {
+          "id": "230",
+          "value": "离退休人员"
+        },
+        {
+          "id": "231",
+          "value": "专业投资者"
+        },
+        {
+          "id": "232",
+          "value": "军人"
+        },
+        {
+          "id": "233",
+          "value": "学生"
+        }
+      ]
+    },
+  
+    "idtype": {
+      "count": "20",
+      "enum": [
+        {
+          "id": "1",
+          "value": "中国公民身份证"
+        },
+        {
+          "id": "2",
+          "value": "军官证"
+        },
+        {
+          "id": "3",
+          "value": "警官证"
+        },
+        {
+          "id": "4",
+          "value": "士兵证"
+        },
+        {
+          "id": "5",
+          "value": "户口簿"
+        },
+        {
+          "id": "6",
+          "value": "护照"
+        },
+        {
+          "id": "7",
+          "value": "台湾居民来往大陆通行证"
+        },
+        {
+          "id": "8",
+          "value": "回乡证"
+        },
+        {
+          "id": "9",
+          "value": "港澳居民来往内地通行证"
+        },
+        {
+          "id": "11",
+          "value": "驾照"
+        },
+        {
+          "id": "12",
+          "value": "当地纳税证件"
+        },
+        {
+          "id": "13",
+          "value": "当地社保证件"
+        },
+        {
+          "id": "14",
+          "value": "当地身份证"
+        },
+        {
+          "id": "15",
+          "value": "外国人永久居留证"
+        },
+        {
+          "id": "16",
+          "value": "港澳永久性居民身份证"
+        },
+        {
+          "id": "17",
+          "value": "港澳台居民居住证"
+        },
+        {
+          "id": "50",
+          "value": "组织机构代码证"
+        },
+        {
+          "id": "51",
+          "value": "商业登记证"
+        },
+        {
+          "id": "52",
+          "value": "统一社会信用代码"
+        },
+        {
+          "id": "53",
+          "value": "机构成立证明文件"
+        },
+        {
+          "id": "99",
+          "value": "资管产品备案函"
+        },
+        {
+          "id": "x",
+          "value": "其他证件"
+        }
+      ]
+    },
+  
+    "organtype": {
+      "count": "29",
+      "enum": [
+        {
+          "id": "110",
+          "value": "国有企业"
+        },
+        {
+          "id": "120",
+          "value": "集体企业"
+        },
+        {
+          "id": "130",
+          "value": "股份合作企业"
+        },
+        {
+          "id": "141",
+          "value": "国有联营企业"
+        },
+        {
+          "id": "142",
+          "value": "集体联营企业"
+        },
+        {
+          "id": "143",
+          "value": "国有与集体联营企业"
+        },
+        {
+          "id": "149",
+          "value": "其他联营企业"
+        },
+        {
+          "id": "151",
+          "value": "国有独资企业"
+        },
+        {
+          "id": "159",
+          "value": "其他有限责任公司"
+        },
+        {
+          "id": "160",
+          "value": "股份有限公司"
+        },
+        {
+          "id": "171",
+          "value": "私营独资企业"
+        },
+        {
+          "id": "172",
+          "value": "私营合伙企业"
+        },
+        {
+          "id": "173",
+          "value": "私营有限责任公司"
+        },
+        {
+          "id": "174",
+          "value": "私营股份有限公司"
+        },
+        {
+          "id": "190",
+          "value": "其他企业"
+        },
+        {
+          "id": "210",
+          "value": "合资经营企业（港或澳、台资）"
+        },
+        {
+          "id": "220",
+          "value": "合作经营企业（港或澳、台资）"
+        },
+        {
+          "id": "230",
+          "value": "港、澳、台商独资经营企业"
+        },
+        {
+          "id": "240",
+          "value": "港、澳、台商投资股份有限公司"
+        },
+        {
+          "id": "310",
+          "value": "中外合资经营企业"
+        },
+        {
+          "id": "320",
+          "value": "中外合作经营企业"
+        },
+        {
+          "id": "330",
+          "value": "外资企业"
+        },
+        {
+          "id": "340",
+          "value": "外商投资股份有限公司"
+        },
+        {
+          "id": "400",
+          "value": "其他经济组织"
+        },
+        {
+          "id": "500",
+          "value": "国家机关"
+        },
+        {
+          "id": "600",
+          "value": "社会团体"
+        },
+        {
+          "id": "700",
+          "value": "事业单位"
+        },
+        {
+          "id": "800",
+          "value": "国际组织"
+        },
+        {
+          "id": "900",
+          "value": "其它"
+        },
+        {
+          "id": "901",
+          "value": "有限合伙企业"
+        },
+        {
+          "id": "902",
+          "value": "普通合伙企业"
+        }
+      ]
+    },
+  
+    "industryid": {
+      "count": "1077",
+      "enum": [{
+        "label": "国际组织",
+        "value": "115"
+      }, {
+        "children": [{
+          "label": "多元化集团",
+          "value": "116203"
+        }],
+        "label": "其他行业",
+        "value": "116"
+      }, {
+        "children": [{
+          "children": [{
+            "label": "煤炭洗选业",
+            "value": "117196430"
+          }, {
+            "label": "煤炭开采业",
+            "value": "117196431"
+          }],
+          "label": "煤炭采选业",
+          "value": "117196"
+        }, {
+          "children": [{
+            "label": "天然原油开采业",
+            "value": "117197432"
+          }, {
+            "label": "天然气开采业",
+            "value": "117197433"
+          }, {
+            "label": "天然原油开采业",
+            "value": "117197434"
+          }],
+          "label": "石油和天然气开采业",
+          "value": "117197"
+        }, {
+          "children": [{
+            "label": "铁矿采选业",
+            "value": "117198434"
+          }, {
+            "children": [{
+              "label": "锰矿采选业",
+              "value": "117198435650"
+            }, {
+              "label": "铬矿采选业",
+              "value": "117198435660"
+            }],
+            "label": "其他黑色金属矿采选业",
+            "value": "117198435"
+          }],
+          "label": "黑色金属矿采选业",
+          "value": "117198"
+        }, {
+          "children": [{
+            "children": [{
+              "label": "铅锌矿采选业",
+              "value": "117199436661"
+            }, {
+              "label": "铜矿采选业",
+              "value": "117199436662"
+            }, {
+              "label": "镍钴矿采选业",
+              "value": "117199436663"
+            }, {
+              "label": "锡矿采选业",
+              "value": "117199436664"
+            }, {
+              "label": "锑矿采选业",
+              "value": "117199436665"
+            }, {
+              "label": "汞矿采选业",
+              "value": "117199436666"
+            }, {
+              "label": "其他重有色金属矿采选业",
+              "value": "117199436667"
+            }],
+            "label": "重有色金属矿采选业",
+            "value": "117199436"
+          }, {
+            "children": [{
+              "label": "铝矿采选业",
+              "value": "117199437668"
+            }, {
+              "label": "镁矿采选业",
+              "value": "117199437669"
+            }, {
+              "label": "钛矿采选业",
+              "value": "117199437670"
+            }, {
+              "label": "其他轻有色金属矿采选业",
+              "value": "117199437671"
+            }],
+            "label": "轻有色金属矿采选业",
+            "value": "117199437"
+          }, {
+            "children": [{
+              "label": "金矿采选业",
+              "value": "117199438672"
+            }, {
+              "label": "银矿采选业",
+              "value": "117199438673"
+            }, {
+              "label": "其他贵金属矿采选业",
+              "value": "117199438674"
+            }],
+            "label": "贵金属矿采选业",
+            "value": "117199438"
+          }, {
+            "children": [{
+              "label": "钨钼矿采选业",
+              "value": "117199439674"
+            }, {
+              "label": "稀有轻金属矿采选业",
+              "value": "117199439675"
+            }, {
+              "label": "稀有高熔点金属矿采选业",
+              "value": "117199439676"
+            }, {
+              "label": "稀散金属矿采选业",
+              "value": "117199439677"
+            }, {
+              "label": "稀土金属矿采选业",
+              "value": "117199439678"
+            }, {
+              "label": "稀有放射性金属矿采选业",
+              "value": "117199439679"
+            }, {
+              "label": "其他稀有稀土金属矿采选业",
+              "value": "117199439680"
+            }],
+            "label": "稀有稀土金属矿采选业",
+            "value": "117199439"
+          }],
+          "label": "有色金属矿采选业",
+          "value": "117199"
+        }, {
+          "children": [{
+            "children": [{
+              "label": "石灰石开采业",
+              "value": "117200440681"
+            }, {
+              "label": "建筑装饰用石开采业",
+              "value": "117200440682"
+            }, {
+              "label": "耐火土石开采业",
+              "value": "117200440683"
+            }, {
+              "label": "其他土砂石开采业",
+              "value": "117200440684"
+            }],
+            "label": "土砂石开采业",
+            "value": "117200440"
+          }, {
+            "children": [{
+              "label": "硫矿采选业",
+              "value": "117200441685"
+            }, {
+              "label": "磷矿采选业",
+              "value": "117200441686"
+            }, {
+              "label": "天然钾盐采选业",
+              "value": "117200441687"
+            }, {
+              "label": "硼矿采选业",
+              "value": "117200441688"
+            }, {
+              "label": "其他化学矿采选业",
+              "value": "117200441689"
+            }],
+            "label": "化学矿采选业",
+            "value": "117200441"
+          }, {
+            "children": [{
+              "label": "海盐业",
+              "value": "117200442690"
+            }, {
+              "label": "湖盐业",
+              "value": "117200442691"
+            }, {
+              "label": "井盐业",
+              "value": "117200442692"
+            }, {
+              "label": "矿盐业",
+              "value": "117200442693"
+            }],
+            "label": "采盐业",
+            "value": "117200442"
+          }, {
+            "children": [{
+              "label": "石棉采选业",
+              "value": "117200443694"
+            }, {
+              "label": "云母采选业",
+              "value": "117200443695"
+            }, {
+              "label": "石墨采选业",
+              "value": "117200443696"
+            }, {
+              "label": "石膏采选业",
+              "value": "117200443697"
+            }, {
+              "label": "宝石、玉石采选业",
+              "value": "117200443698"
+            }, {
+              "label": "水晶采选业",
+              "value": "117200443699"
+            }, {
+              "label": "滑石采选业",
+              "value": "117200443700"
+            }, {
+              "label": "其他类未包括的非金属矿采选业",
+              "value": "117200443701"
+            }],
+            "label": "其他非金属矿采选业",
+            "value": "117200443"
+          }, {
+            "label": "轻有色金属矿采选业",
+            "value": "117200444"
+          }],
+          "label": "非金属矿采选业",
+          "value": "117200"
+        }, {
+          "label": "其他矿采选业",
+          "value": "117201"
+        }, {
+          "children": [{
+            "label": "木材采运业",
+            "value": "117202445"
+          }, {
+            "label": "竹材采运业",
+            "value": "117202446"
+          }],
+          "label": "木材及竹材采运业",
+          "value": "117202"
+        }],
+        "label": "采掘业",
+        "value": "117"
+      }, {
+        "children": [{
+          "children": [{
+            "label": "种植业",
+            "value": "118191417"
+          }, {
+            "label": "其他农业",
+            "value": "118191418"
+          }],
+          "label": "农业",
+          "value": "118191"
+        }, {
+          "label": "林业",
+          "value": "118192"
+        }, {
+          "children": [{
+            "label": "狩猎业",
+            "value": "118193419"
+          }, {
+            "label": "家禽饲养业",
+            "value": "118193420"
+          }, {
+            "label": "牲畜饲养放牧业",
+            "value": "118193421"
+          }, {
+            "label": "其他畜牧业",
+            "value": "118193422"
+          }],
+          "label": "畜牧业",
+          "value": "118193"
+        }, {
+          "children": [{
+            "children": [{
+              "label": "海洋捕捞业",
+              "value": "118194423646"
+            }, {
+              "label": "海水养殖业",
+              "value": "118194423647"
+            }],
+            "label": "海洋渔业",
+            "value": "118194423"
+          }, {
+            "children": [{
+              "label": "淡水捕捞业",
+              "value": "118194424648"
+            }, {
+              "label": "淡水养殖业",
+              "value": "118194424649"
+            }],
+            "label": "淡水渔业",
+            "value": "118194424"
+          }],
+          "label": "渔业",
+          "value": "118194"
+        }, {
+          "children": [{
+            "label": "农业服务业",
+            "value": "118195425"
+          }, {
+            "label": "林业服务业",
+            "value": "118195426"
+          }, {
+            "label": "牧业服务业",
+            "value": "118195427"
+          }, {
+            "label": "渔业服务业",
+            "value": "118195428"
+          }, {
+            "label": "其他农、林、牧、渔服务业",
+            "value": "118195429"
+          }],
+          "label": "农、林、牧、渔服务业",
+          "value": "118195"
+        }],
+        "label": "农、林、牧、渔服务业",
+        "value": "118"
+      }, {
+        "children": [{
+          "children": [{
+            "label": "其他类未包括的社会服务业",
+            "value": "119163349"
+          }, {
+            "label": "市场管理服务业",
+            "value": "119163350"
+          }],
+          "label": "其他社会服务业",
+          "value": "119163"
+        }, {
+          "label": "商务服务业",
+          "value": "119164"
+        }, {
+          "children": [{
+            "label": "其他类未包括的信息咨询服务业",
+            "value": "119165351"
+          }, {
+            "children": [{
+              "label": "社会调查业",
+              "value": "119165352626"
+            }, {
+              "label": "会计、审计、统计咨询业",
+              "value": "119165352627"
+            }, {
+              "label": "律师事务所",
+              "value": "119165352628"
+            }, {
+              "label": "公证业",
+              "value": "119165352629"
+            }],
+            "label": "咨询服务业",
+            "value": "119165352"
+          }, {
+            "label": "广告业",
+            "value": "119165353"
+          }, {
+            "label": "投资咨询公司",
+            "value": "119165363"
+          }],
+          "label": "信息、咨询服务业",
+          "value": "119165"
+        }, {
+          "label": "娱乐服务业",
+          "value": "119166"
+        }, {
+          "label": "旅游业",
+          "value": "119167"
+        }, {
+          "label": "租赁服务业",
+          "value": "119168"
+        }, {
+          "children": [{
+            "label": "其他居民服务业",
+            "value": "119169354"
+          }, {
+            "label": "殡葬业",
+            "value": "119169355"
+          }, {
+            "label": "家务服务业",
+            "value": "119169356"
+          }, {
+            "label": "日用品修理业",
+            "value": "119169357"
+          }, {
+            "label": "托儿所",
+            "value": "119169358"
+          }, {
+            "label": "摄影及扩印业",
+            "value": "119169359"
+          }, {
+            "label": "洗染业",
+            "value": "119169360"
+          }, {
+            "label": "沐浴业",
+            "value": "119169361"
+          }, {
+            "label": "理发及美容化妆业",
+            "value": "119169362"
+          }],
+          "label": "居民服务业和其他服务业",
+          "value": "119169"
+        }],
+        "label": "居民服务业",
+        "value": "119"
+      }, {
+        "children": [{
+          "label": "基金业",
+          "value": "106154"
+        }, {
+          "label": "期货业",
+          "value": "106155"
+        }, {
+          "label": "保险业",
+          "value": "106156"
+        }, {
+          "label": "其他非银行金融业",
+          "value": "106157"
+        }, {
+          "label": "证券业",
+          "value": "106158"
+        }, {
+          "label": "银行业",
+          "value": "106159"
+        }, {
+          "children": [{
+            "label": "证券自营",
+            "value": "106201340"
+          }, {
+            "label": "证券集合理财",
+            "value": "106201341"
+          }, {
+            "label": "证券定向理财",
+            "value": "106201342"
+          }, {
+            "children": [{
+              "label": "封闭式基金",
+              "value": "106201454702"
+            }, {
+              "label": "开放式基金",
+              "value": "106201454703"
+            }, {
+              "label": "保本基金",
+              "value": "106201454704"
+            }, {
+              "label": "ETF",
+              "value": "106201454705"
+            }, {
+              "label": "债券基金（短期理财债券基金除外）",
+              "value": "106201454706"
+            }],
+            "label": "基金管理业务",
+            "value": "106201454"
+          }],
+          "label": "证券公司",
+          "value": "106201"
+        }, {
+          "children": [{
+            "label": "封闭式基金",
+            "value": "106202343"
+          }, {
+            "label": "开放式基金",
+            "value": "106202344"
+          }, {
+            "label": "保本基金",
+            "value": "106202345"
+          }, {
+            "label": "ETF",
+            "value": "106202346"
+          }, {
+            "label": "基金专户理财",
+            "value": "106202347"
+          }, {
+            "label": "债券基金（短期理财债券基金除外）",
+            "value": "106202348"
+          }],
+          "label": "基金公司",
+          "value": "106202"
+        }, {
+          "label": "期货公司",
+          "value": "106203"
+        }, {
+          "children": [{
+            "label": "银行自营",
+            "value": "106204450"
+          }, {
+            "label": "银行理财",
+            "value": "106204451"
+          }],
+          "label": "银行",
+          "value": "106204"
+        }, {
+          "label": "财务公司",
+          "value": "106205"
+        }, {
+          "label": "社保基金",
+          "value": "106206"
+        }, {
+          "label": "企业年金",
+          "value": "106207"
+        }, {
+          "label": "QFII",
+          "value": "106208"
+        }, {
+          "children": [{
+            "label": "保险资产组合",
+            "value": "106209452"
+          }, {
+            "children": [{
+              "label": "封闭式基金",
+              "value": "106209453707"
+            }, {
+              "label": "开放式基金",
+              "value": "106209453708"
+            }, {
+              "label": "保本基金",
+              "value": "106209453709"
+            }, {
+              "label": "ETF",
+              "value": "106209453710"
+            }, {
+              "label": "债券基金（短期理财债券基金除外）",
+              "value": "106209453711"
+            }],
+            "label": "基金管理业务",
+            "value": "106209453"
+          }],
+          "label": "保险公司",
+          "value": "106209"
+        }, {
+          "label": "信托公司",
+          "value": "106210"
+        }, {
+          "label": "其他金融机构",
+          "value": "106211"
+        }, {
+          "label": "RQFII",
+          "value": "106212"
+        }],
+        "label": "金融业",
+        "value": "106"
+      }, {
+        "children": [{
+          "label": "房地产代理与经纪业",
+          "value": "107160"
+        }, {
+          "label": "房地产管理业",
+          "value": "107161"
+        }, {
+          "label": "房地产开发与经营业",
+          "value": "107162"
+        }],
+        "label": "房地产业",
+        "value": "107"
+      }, {
+        "children": [{
+          "label": "其他公共服务业",
+          "value": "108301"
+        }, {
+          "label": "风景名胜区管理业",
+          "value": "108302"
+        }, {
+          "label": "市政工程管理业",
+          "value": "108303"
+        }, {
+          "label": "环境卫生业",
+          "value": "108304"
+        }, {
+          "label": "自然保护区管理业",
+          "value": "108305"
+        }, {
+          "label": "园林绿化业",
+          "value": "108306"
+        }],
+        "label": "环境和公共设施管理业",
+        "value": "108"
+      }, {
+        "children": [{
+          "children": [{
+            "label": "其他类未包括的社会福利保障业",
+            "value": "109171369"
+          }, {
+            "label": "社会保险和救济业",
+            "value": "109171370"
+          }, {
+            "children": [{
+              "label": "社区服务业",
+              "value": "109171371630"
+            }, {
+              "label": "福利收容院",
+              "value": "109171371631"
+            }, {
+              "label": "干部休养所",
+              "value": "109171371632"
+            }],
+            "label": "社会福利业",
+            "value": "109171371"
+          }],
+          "label": "社会福利保障业",
+          "value": "109171"
+        }, {
+          "label": "体育",
+          "value": "109172"
+        }, {
+          "children": [{
+            "label": "其他卫生",
+            "value": "109173372"
+          }, {
+            "label": "药品检验所(室)",
+            "value": "109173373"
+          }, {
+            "label": "妇幼保健所(站)",
+            "value": "109173374"
+          }, {
+            "label": "卫生防疫站",
+            "value": "109173375"
+          }, {
+            "label": "专科防治所（站）",
+            "value": "109173376"
+          }, {
+            "label": "疗养院",
+            "value": "109173377"
+          }, {
+            "children": [{
+              "label": "其他医院",
+              "value": "109173378633"
+            }, {
+              "label": "门诊部",
+              "value": "109173378634"
+            }, {
+              "label": "中医医院",
+              "value": "109173378635"
+            }, {
+              "label": "专科医院",
+              "value": "109173378636"
+            }, {
+              "label": "综合医院",
+              "value": "109173378637"
+            }],
+            "label": "医院",
+            "value": "109173378"
+          }],
+          "label": "卫生",
+          "value": "109173"
+        }],
+        "label": "卫生、体育和社会福利业",
+        "value": "109"
+      }, {
+        "children": [{
+          "children": [{
+            "label": "记录媒介的复制",
+            "value": "100120223"
+          }, {
+            "children": [{
+              "label": "其他印刷业",
+              "value": "100120224448"
+            }, {
+              "label": "包装装潢印刷业",
+              "value": "100120224449"
+            }, {
+              "label": "书、报、刊印刷业",
+              "value": "100120224450"
+            }],
+            "label": "印刷业",
+            "value": "100120224"
+          }],
+          "label": "印刷业、记录媒介的复制",
+          "value": "100120"
+        }, {
+          "children": [{
+            "label": "纸制品业",
+            "value": "100121225"
+          }, {
+            "children": [{
+              "label": "加工纸制造业",
+              "value": "100121226451"
+            }, {
+              "label": "手工纸制造业",
+              "value": "100121226452"
+            }, {
+              "label": "机制纸及纸板制造业",
+              "value": "100121226453"
+            }],
+            "label": "造纸业",
+            "value": "100121226"
+          }, {
+            "label": "纸浆制造业",
+            "value": "100121227"
+          }],
+          "label": "造纸及纸制品业",
+          "value": "100121"
+        }, {
+          "children": [{
+            "label": "其他家具制造业",
+            "value": "100122228"
+          }, {
+            "label": "塑料家具制造业",
+            "value": "100122229"
+          }, {
+            "label": "金属家具制造业",
+            "value": "100122230"
+          }, {
+            "label": "竹、藤家具制造业",
+            "value": "100122231"
+          }, {
+            "label": "木制家具制造业",
+            "value": "100122232"
+          }],
+          "label": "家具制造业",
+          "value": "100122"
+        }, {
+          "children": [{
+            "label": "竹、藤、棕、草制品业",
+            "value": "100123233"
+          }, {
+            "children": [{
+              "label": "生活用木制品业",
+              "value": "100123234454"
+            }, {
+              "label": "生产用木制品业",
+              "value": "100123234455"
+            }],
+            "label": "木制品业",
+            "value": "100123234"
+          }, {
+            "children": [{
+              "label": "其他人造板制造业",
+              "value": "100123235456"
+            }, {
+              "label": "刨花板制造业",
+              "value": "100123235457"
+            }, {
+              "label": "纤维板制造业",
+              "value": "100123235458"
+            }, {
+              "label": "胶合板制造业",
+              "value": "100123235459"
+            }],
+            "label": "人造板制造业",
+            "value": "100123235"
+          }, {
+            "children": [{
+              "label": "木片加工业",
+              "value": "100123236460"
+            }, {
+              "label": "锯材加工业",
+              "value": "100123236461"
+            }],
+            "label": "锯材、木片加工业",
+            "value": "100123236"
+          }],
+          "label": "木材加工及竹、藤、棕、草制品业",
+          "value": "100123"
+        }, {
+          "children": [{
+            "children": [{
+              "label": "羽毛（绒）制品业",
+              "value": "100124237462"
+            }, {
+              "label": "羽毛（绒）加工业",
+              "value": "100124237463"
+            }],
+            "label": "羽毛（绒）及制品业",
+            "value": "100124237"
+          }, {
+            "children": [{
+              "label": "其他毛皮制品业",
+              "value": "100124238464"
+            }, {
+              "label": "毛皮服装业",
+              "value": "100124238465"
+            }, {
+              "label": "毛皮鞣制业",
+              "value": "100124238466"
+            }],
+            "label": "毛皮鞣制及制品业",
+            "value": "100124238"
+          }, {
+            "children": [{
+              "label": "其他类未包括的皮革制品业",
+              "value": "100124239467"
+            }, {
+              "label": "皮包制造业",
+              "value": "100124239468"
+            }, {
+              "label": "皮箱制造业",
+              "value": "100124239469"
+            }, {
+              "label": "革皮服装制造业",
+              "value": "100124239470"
+            }, {
+              "label": "皮鞋制造业",
+              "value": "100124239471"
+            }],
+            "label": "皮革制品制造业",
+            "value": "100124239"
+          }, {
+            "children": [{
+              "label": "其他制革业",
+              "value": "100124240472"
+            }, {
+              "label": "重革业",
+              "value": "100124240473"
+            }, {
+              "label": "轻革业",
+              "value": "100124240474"
+            }],
+            "label": "制革业",
+            "value": "100124240"
+          }],
+          "label": "皮革、毛皮、羽绒及其制品业",
+          "value": "100124"
+        }, {
+          "children": [{
+            "label": "其他纤维制品制造业",
+            "value": "100125241"
+          }, {
+            "label": "制鞋业",
+            "value": "100125242"
+          }, {
+            "label": "制帽业",
+            "value": "100125243"
+          }, {
+            "label": "服装制造业",
+            "value": "100125244"
+          }],
+          "label": "服装、鞋、帽及其他纤维制品制造业",
+          "value": "100125"
+        }, {
+          "children": [{
+            "label": "其他纺织业",
+            "value": "100126245"
+          }, {
+            "children": [{
+              "label": "其他针织品业",
+              "value": "100126246475"
+            }, {
+              "label": "丝针织品业",
+              "value": "100126246476"
+            }, {
+              "label": "毛针织品业",
+              "value": "100126246477"
+            }, {
+              "label": "棉针织品业",
+              "value": "100126246478"
+            }],
+            "label": "针织品业",
+            "value": "100126246"
+          }, {
+            "children": [{
+              "label": "其他丝绢纺织业",
+              "value": "100126247479"
+            }, {
+              "label": "丝制品业",
+              "value": "100126247480"
+            }, {
+              "label": "丝印染业",
+              "value": "100126247481"
+            }, {
+              "label": "丝织业",
+              "value": "100126247482"
+            }, {
+              "label": "绢纺业",
+              "value": "100126247483"
+            }, {
+              "label": "缫丝业",
+              "value": "100126247484"
+            }],
+            "label": "丝绢纺织业",
+            "value": "100126247"
+          }, {
+            "children": [{
+              "label": "其他麻纺织业",
+              "value": "100126248485"
+            }, {
+              "label": "黄、洋、青麻纺织业",
+              "value": "100126248486"
+            }, {
+              "label": "亚麻纺织业",
+              "value": "100126248487"
+            }, {
+              "label": "苎麻纺织业",
+              "value": "100126248488"
+            }],
+            "label": "麻纺织业",
+            "value": "100126248"
+          }, {
+            "children": [{
+              "label": "其他毛纺织业",
+              "value": "100126249489"
+            }, {
+              "label": "工业用呢、工业用毡制造业",
+              "value": "100126249490"
+            }, {
+              "label": "毛染整业",
+              "value": "100126249491"
+            }, {
+              "label": "毛织业",
+              "value": "100126249492"
+            }, {
+              "label": "毛纺业",
+              "value": "100126249493"
+            }, {
+              "label": "毛条加工业",
+              "value": "100126249494"
+            }],
+            "label": "毛纺织业",
+            "value": "100126249"
+          }, {
+            "children": [{
+              "label": "其他棉纺织业",
+              "value": "100126250495"
+            }, {
+              "label": "帘子布制造业",
+              "value": "100126250496"
+            }, {
+              "label": "棉线带制造业",
+              "value": "100126250497"
+            }, {
+              "label": "棉制品业",
+              "value": "100126250498"
+            }, {
+              "label": "印染业",
+              "value": "100126250499"
+            }, {
+              "label": "棉织业",
+              "value": "100126250500"
+            }, {
+              "label": "棉纺业",
+              "value": "100126250501"
+            }],
+            "label": "棉纺织业",
+            "value": "100126250"
+          }, {
+            "children": [{
+              "label": "其他纤维原料初步加工业",
+              "value": "100126251502"
+            }, {
+              "label": "苎麻纤维初步加工业",
+              "value": "100126251503"
+            }, {
+              "label": "亚麻纤维初步加工业",
+              "value": "100126251504"
+            }, {
+              "label": "洗毛业",
+              "value": "100126251505"
+            }, {
+              "label": "轧花业",
+              "value": "100126251506"
+            }],
+            "label": "纤维原料初步加工业",
+            "value": "100126251"
+          }],
+          "label": "纺织业",
+          "value": "100126"
+        }, {
+          "children": [{
+            "label": "其他食品加工业",
+            "value": "100130265"
+          }, {
+            "label": "盐加工业",
+            "value": "100130266"
+          }, {
+            "children": [{
+              "label": "其它水产品加工业",
+              "value": "100130267548"
+            }, {
+              "label": "鱼糜及鱼糜制品加工业",
+              "value": "100130267549"
+            }, {
+              "label": "腌制水产品加工业",
+              "value": "100130267550"
+            }, {
+              "label": "干制水产品加工业",
+              "value": "100130267551"
+            }, {
+              "label": "冷冻水产品加工业",
+              "value": "100130267552"
+            }],
+            "label": "水产品加工业",
+            "value": "100130267"
+          }, {
+            "children": [{
+              "label": "蛋品加工业",
+              "value": "100130268553"
+            }, {
+              "label": "肉类副产品加工业",
+              "value": "100130268554"
+            }, {
+              "label": "肉制品加工业",
+              "value": "100130268555"
+            }, {
+              "label": "屠宰业",
+              "value": "100130268556"
+            }],
+            "label": "屠宰及肉类蛋类加工业",
+            "value": "100130268"
+          }, {
+            "children": [{
+              "label": "加工糖业",
+              "value": "100130269557"
+            }, {
+              "label": "甜菜糖业",
+              "value": "100130269558"
+            }, {
+              "label": "甘蔗糖业",
+              "value": "100130269559"
+            }],
+            "label": "制糖业",
+            "value": "100130269"
+          }, {
+            "children": [{
+              "label": "非食用植物油加工业",
+              "value": "100130270560"
+            }, {
+              "label": "食用植物油加工业",
+              "value": "100130270561"
+            }],
+            "label": "植物油加工业",
+            "value": "100130270"
+          }, {
+            "children": [{
+              "label": "其他饲料制造业",
+              "value": "100130271562"
+            }, {
+              "label": "水产饲料制造业",
+              "value": "100130271563"
+            }, {
+              "label": "蛋白饲料制造业",
+              "value": "100130271564"
+            }, {
+              "label": "配合及混合饲料制造业",
+              "value": "100130271565"
+            }, {
+              "label": "面、米制品业",
+              "value": "100130271566"
+            }, {
+              "label": "磨粉业",
+              "value": "100130271567"
+            }, {
+              "label": "碾米业",
+              "value": "100130271568"
+            }],
+            "label": "粮食及饲料加工业",
+            "value": "100130271"
+          }],
+          "label": "食品加工业",
+          "value": "100130"
+        }, {
+          "children": [{
+            "label": "其他烟草加工业",
+            "value": "100127252"
+          }, {
+            "label": "卷烟制造业",
+            "value": "100127253"
+          }, {
+            "label": "烟叶复烤业",
+            "value": "100127254"
+          }],
+          "label": "烟草加工业",
+          "value": "100127"
+        }, {
+          "children": [{
+            "label": "其他饮料制造业",
+            "value": "100128255"
+          }, {
+            "label": "制茶业",
+            "value": "100128256"
+          }, {
+            "children": [{
+              "label": "其他软饮料制造业",
+              "value": "100128257507"
+            }, {
+              "label": "固体饮料制造业",
+              "value": "100128257508"
+            }, {
+              "label": "果菜汁饮料制造业",
+              "value": "100128257509"
+            }, {
+              "label": "天然矿泉水制造业",
+              "value": "100128257510"
+            }, {
+              "label": "碳酸饮料制造业",
+              "value": "100128257511"
+            }],
+            "label": "软饮料制造业",
+            "value": "100128257"
+          }, {
+            "children": [{
+              "label": "果露酒制造业",
+              "value": "100128258512"
+            }, {
+              "label": "葡萄酒制造业",
+              "value": "100128258513"
+            }, {
+              "label": "黄酒制造业",
+              "value": "100128258514"
+            }, {
+              "label": "啤酒制造业",
+              "value": "100128258515"
+            }, {
+              "label": "白酒制造业",
+              "value": "100128258516"
+            }, {
+              "label": "酒精制造业",
+              "value": "100128258517"
+            }],
+            "label": "酒精及饮料酒制造业",
+            "value": "100128258"
+          }],
+          "label": "饮料制造业",
+          "value": "100128"
+        }, {
+          "children": [{
+            "children": [{
+              "label": "其他罐头食品制造业",
+              "value": "100129262536"
+            }, {
+              "label": "蔬菜罐头制造业",
+              "value": "100129262537"
+            }, {
+              "label": "水果罐头制造业",
+              "value": "100129262538"
+            }, {
+              "label": "水产罐头制造业",
+              "value": "100129262539"
+            }, {
+              "label": "禽类罐头制造业",
+              "value": "100129262540"
+            }, {
+              "label": "肉类罐头制造业",
+              "value": "100129262541"
+            }],
+            "label": "罐头食品制造业",
+            "value": "100129262"
+          }, {
+            "label": "乳制品制造业",
+            "value": "100129263"
+          }, {
+            "children": [{
+              "label": "其他糕点、糖果制品业",
+              "value": "100129264542"
+            }, {
+              "label": "蜜饯业",
+              "value": "100129264543"
+            }, {
+              "label": "方便主食品业",
+              "value": "100129264544"
+            }, {
+              "label": "饼干业",
+              "value": "100129264545"
+            }, {
+              "label": "糕点业",
+              "value": "100129264546"
+            }, {
+              "label": "糖果业",
+              "value": "100129264547"
+            }],
+            "label": "糕点、糖果制造业",
+            "value": "100129264"
+          }, {
+            "children": [{
+              "label": "其他类未包括的食品制造业",
+              "value": "100129259518"
+            }, {
+              "label": "冷冻饮品制造业",
+              "value": "100129259519"
+            }, {
+              "label": "淀粉糖业",
+              "value": "100129259520"
+            }, {
+              "label": "制冰业",
+              "value": "100129259521"
+            }, {
+              "label": "代乳品制造业",
+              "value": "100129259522"
+            }, {
+              "label": "淀粉及淀粉制品业",
+              "value": "100129259523"
+            }, {
+              "label": "豆制品制造业",
+              "value": "100129259524"
+            }],
+            "label": "其他食品制造业",
+            "value": "100129259"
+          }, {
+            "children": [{
+              "label": "其他调味品制造业",
+              "value": "100129260525"
+            }, {
+              "label": "调味油制造业",
+              "value": "100129260526"
+            }, {
+              "label": "调味料制造业",
+              "value": "100129260527"
+            }, {
+              "label": "食醋制造业",
+              "value": "100129260528"
+            }, {
+              "label": "酱油、酱类制造业",
+              "value": "100129260529"
+            }],
+            "label": "调味品制造业",
+            "value": "100129260"
+          }, {
+            "children": [{
+              "label": "氨基酸制造业",
+              "value": "100129261535"
+            }, {
+              "label": "其他发酵制品业",
+              "value": "100129261530"
+            }, {
+              "label": "酶制剂制造业",
+              "value": "100129261531"
+            }, {
+              "label": "酵母制品业",
+              "value": "100129261532"
+            }, {
+              "label": "柠檬酸制造业",
+              "value": "100129261533"
+            }, {
+              "label": "味精制造业",
+              "value": "100129261534"
+            }],
+            "label": "发酵制品业",
+            "value": "100129261"
+          }],
+          "label": "食品制造业",
+          "value": "100129"
+        }, {
+          "children": [{
+            "label": "其他仪器仪表制造业",
+            "value": "100102103"
+          }, {
+            "label": "仪器仪表及文化、办公用机械修理业",
+            "value": "100102104"
+          }, {
+            "label": "钟表制造业",
+            "value": "100102105"
+          }, {
+            "children": [{
+              "label": "其他文化、办公用机械制造业",
+              "value": "100102106115"
+            }, {
+              "label": "打字机及油印机制造业",
+              "value": "100102106116"
+            }, {
+              "label": "复印机制造业",
+              "value": "100102106117"
+            }, {
+              "label": "照相机及器材制造业",
+              "value": "100102106118"
+            }, {
+              "label": "幻灯机及投影仪制造业",
+              "value": "100102106119"
+            }, {
+              "label": "电影机械制造业",
+              "value": "100102106120"
+            }],
+            "label": "文化、办公用机械制造业",
+            "value": "100102106"
+          }, {
+            "children": [{
+              "label": "衡器制造业",
+              "value": "100102107121"
+            }, {
+              "label": "量具量仪制造业",
+              "value": "100102107122"
+            }, {
+              "label": "传递标准用计量仪器制造业",
+              "value": "100102107123"
+            }],
+            "label": "计量器具制造业",
+            "value": "100102107"
+          }, {
+            "label": "电子测量仪器制造业",
+            "value": "100102108"
+          }, {
+            "children": [{
+              "label": "专用仪器仪表元件、器件制造业",
+              "value": "100102109124"
+            }, {
+              "label": "核子及核辐射测量仪器制造业",
+              "value": "100102109125"
+            }, {
+              "label": "教学仪器制造业",
+              "value": "100102109126"
+            }, {
+              "label": "气象、海洋、水文、天文测量仪器制造业",
+              "value": "100102109127"
+            }, {
+              "label": "地质勘探、钻采、地震专用仪器制造业",
+              "value": "100102109128"
+            }, {
+              "label": "农、林、牧、渔仪器、仪表制造业",
+              "value": "100102109129"
+            }, {
+              "label": "导航、制导仪器制造业",
+              "value": "100102109130"
+            }, {
+              "label": "汽车仪器仪表制造业",
+              "value": "100102109131"
+            }, {
+              "label": "环境保护仪器仪表制造业",
+              "value": "100102109132"
+            }],
+            "label": "专用仪器仪表制造业",
+            "value": "100102109"
+          }, {
+            "children": [{
+              "label": "其他通用仪器仪表制造业",
+              "value": "100102110133"
+            }, {
+              "label": "通用仪器仪表元件、器件制造业",
+              "value": "100102110134"
+            }, {
+              "label": "实验室仪器及装置制造业",
+              "value": "100102110135"
+            }, {
+              "label": "试验机制造业",
+              "value": "100102110136"
+            }, {
+              "label": "分析仪器制造业",
+              "value": "100102110137"
+            }, {
+              "label": "计时仪器制造业",
+              "value": "100102110138"
+            }, {
+              "label": "光学仪器制造业",
+              "value": "100102110139"
+            }, {
+              "label": "电工仪器、仪表制造业",
+              "value": "100102110140"
+            }, {
+              "label": "工业自动化仪表制造业",
+              "value": "100102110141"
+            }],
+            "label": "通用仪器仪表制造业",
+            "value": "100102110"
+          }],
+          "label": "仪器仪表及文化、办公用机械制造业",
+          "value": "100102"
+        }, {
+          "children": [{
+            "label": "其他电子设备制造业",
+            "value": "100103111"
+          }, {
+            "children": [{
+              "label": "其他电子设备修理业",
+              "value": "100103112142"
+            }, {
+              "label": "电子计算机修理业",
+              "value": "100103112143"
+            }, {
+              "label": "广播电视设备修理业",
+              "value": "100103112144"
+            }, {
+              "label": "通信设备修理业",
+              "value": "100103112145"
+            }],
+            "label": "电子设备及通信设备修理业",
+            "value": "100103112"
+          }, {
+            "children": [{
+              "label": "电子计算器制造业",
+              "value": "100103113146"
+            }, {
+              "label": "收音机、录音机制造业",
+              "value": "100103113147"
+            }, {
+              "label": "电视机、录像机、摄像机制造业",
+              "value": "100103113148"
+            }],
+            "label": "日用电子器具制造业",
+            "value": "100103113"
+          }, {
+            "label": "电子元件制造业",
+            "value": "100103114"
+          }, {
+            "children": [{
+              "label": "集成电路制造业",
+              "value": "100103115149"
+            }, {
+              "label": "半导体器件制造业",
+              "value": "100103115150"
+            }, {
+              "label": "电真空器件制造业",
+              "value": "100103115151"
+            }],
+            "label": "电子器件制造业",
+            "value": "100103115"
+          }, {
+            "children": [{
+              "label": "电子计算机外部设备制造业",
+              "value": "100103116152"
+            }, {
+              "label": "电子计算机整机制造业",
+              "value": "100103116153"
+            }],
+            "label": "电子计算机制造业",
+            "value": "100103116"
+          }, {
+            "label": "广播电视设备制造业",
+            "value": "100103117"
+          }, {
+            "children": [{
+              "label": "雷达专用配套设备及部件",
+              "value": "100103118154"
+            }, {
+              "label": "雷达整机制造业",
+              "value": "100103118155"
+            }],
+            "label": "雷达制造业",
+            "value": "100103118"
+          }, {
+            "children": [{
+              "label": "其他通信设备制造业",
+              "value": "100103119156"
+            }, {
+              "label": "通信终端设备制造业",
+              "value": "100103119157"
+            }, {
+              "label": "交换设备制造业",
+              "value": "100103119158"
+            }, {
+              "label": "传输设备制造业",
+              "value": "100103119159"
+            }],
+            "label": "通信设备制造业",
+            "value": "100103119"
+          }],
+          "label": "通信设备、计算机及其他电子设备制造业",
+          "value": "100103"
+        }, {
+          "children": [{
+            "children": [{
+              "label": "其他类未包括的电气机械制造业",
+              "value": "100104120160"
+            }, {
+              "label": "工业用电炉制造业",
+              "value": "100104120161"
+            }, {
+              "label": "电焊机制造业",
+              "value": "100104120162"
+            }],
+            "label": "其他电气机械制造业",
+            "value": "100104120"
+          }, {
+            "label": "电气机械修理业",
+            "value": "100104121"
+          }, {
+            "children": [{
+              "label": "其他照明器具制造业",
+              "value": "100104122163"
+            }, {
+              "label": "灯用电器附件制造业",
+              "value": "100104122164"
+            }, {
+              "label": "灯具制造业",
+              "value": "100104122165"
+            }, {
+              "label": "灯头、灯座制造业",
+              "value": "100104122166"
+            }, {
+              "label": "电光源制造业",
+              "value": "100104122167"
+            }],
+            "label": "照明器具制造业",
+            "value": "100104122"
+          }, {
+            "children": [{
+              "label": "其他日用电器制造业",
+              "value": "100104123168"
+            }, {
+              "label": "排油烟机制造业",
+              "value": "100104123169"
+            }, {
+              "label": "空调器制造业",
+              "value": "100104123170"
+            }, {
+              "label": "电风扇制造业",
+              "value": "100104123171"
+            }, {
+              "label": "电冰箱制造业",
+              "value": "100104123172"
+            }, {
+              "label": "吸尘器制造业",
+              "value": "100104123173"
+            }, {
+              "label": "洗衣机制造业",
+              "value": "100104123174"
+            }],
+            "label": "日用电器制造业",
+            "value": "100104123"
+          }, {
+            "children": [{
+              "label": "其他电工器材制造业",
+              "value": "100104124175"
+            }, {
+              "label": "原电池制造业",
+              "value": "100104124176"
+            }, {
+              "label": "蓄电池制造业",
+              "value": "100104124177"
+            }, {
+              "label": "绝缘制品业",
+              "value": "100104124178"
+            }, {
+              "label": "电线电缆制造业",
+              "value": "100104124179"
+            }],
+            "label": "电工器材制造业",
+            "value": "100104124"
+          }, {
+            "children": [{
+              "label": "其他输配电及控制设备制造业",
+              "value": "100104125180"
+            }, {
+              "label": "电器设备元件制造业",
+              "value": "100104125181"
+            }, {
+              "label": "开关控制设备制造业",
+              "value": "100104125182"
+            }, {
+              "label": "电容器制造业",
+              "value": "100104125183"
+            }, {
+              "label": "整流器制造业",
+              "value": "100104125184"
+            }, {
+              "label": "变压器制造业",
+              "value": "100104125185"
+            }],
+            "label": "输配电及控制设备制造业",
+            "value": "100104125"
+          }, {
+            "children": [{
+              "label": "微电机制造业",
+              "value": "100104126186"
+            }, {
+              "label": "电动机制造业",
+              "value": "100104126187"
+            }, {
+              "label": "发电机制造业",
+              "value": "100104126188"
+            }],
+            "label": "电机制造业",
+            "value": "100104126"
+          }],
+          "label": "电气机械及器材制造业",
+          "value": "100104"
+        }, {
+          "label": "武器弹药制造业",
+          "value": "100105"
+        }, {
+          "children": [{
+            "children": [{
+              "label": "公路标志制造业",
+              "value": "100106127189"
+            }, {
+              "label": "潜水装备制造业",
+              "value": "100106127190"
+            }, {
+              "label": "航标器材制造业",
+              "value": "100106127191"
+            }],
+            "label": "其他交通运输设备制造业",
+            "value": "100106127"
+          }, {
+            "children": [{
+              "label": "其他交通运输设备修理业",
+              "value": "100106128192"
+            }, {
+              "label": "飞机修理业",
+              "value": "100106128193"
+            }, {
+              "label": "船舶修理业",
+              "value": "100106128194"
+            }, {
+              "label": "电车修理业",
+              "value": "100106128195"
+            }, {
+              "label": "摩托车修理业",
+              "value": "100106128196"
+            }, {
+              "label": "汽车修理业",
+              "value": "100106128197"
+            }, {
+              "label": "铁路运输设备修理业",
+              "value": "100106128198"
+            }],
+            "label": "交通运输设备修理业",
+            "value": "100106128"
+          }, {
+            "children": [{
+              "label": "其他航空航天器制造业",
+              "value": "100106129199"
+            }, {
+              "label": "飞机制造业",
+              "value": "100106129200"
+            }],
+            "label": "航空航天器制造业",
+            "value": "100106129"
+          }, {
+            "children": [{
+              "label": "海洋石油平台制造业",
+              "value": "100106130201"
+            }, {
+              "label": "船舶机械设备制造业",
+              "value": "100106130202"
+            }, {
+              "label": "渔轮制造业",
+              "value": "100106130203"
+            }, {
+              "label": "内河船制造业",
+              "value": "100106130204"
+            }, {
+              "label": "海洋运输船制造业",
+              "value": "100106130205"
+            }],
+            "label": "船舶制造业",
+            "value": "100106130"
+          }, {
+            "label": "电车制造业",
+            "value": "100106131"
+          }, {
+            "label": "自行车制造业",
+            "value": "100106132"
+          }, {
+            "children": [{
+              "label": "摩托车零部件及配件制造业",
+              "value": "100106133206"
+            }, {
+              "label": "摩托车整车制造业",
+              "value": "100106133207"
+            }],
+            "label": "摩托车制造业",
+            "value": "100106133"
+          }, {
+            "children": [{
+              "label": "汽车零部件及配件制造业",
+              "value": "100106134208"
+            }, {
+              "label": "汽车车身制造业",
+              "value": "100106134209"
+            }, {
+              "label": "特种车辆及改装汽车制造业",
+              "value": "100106134210"
+            }, {
+              "label": "微型汽车制造业",
+              "value": "100106134211"
+            }, {
+              "label": "小轿车制造业",
+              "value": "100106134212"
+            }, {
+              "label": "客车制造业",
+              "value": "100106134213"
+            }, {
+              "label": "载重汽车制造业",
+              "value": "100106134214"
+            }],
+            "label": "汽车制造业",
+            "value": "100106134"
+          }, {
+            "children": [{
+              "label": "其他铁路运输设备制造业",
+              "value": "100106135215"
+            }, {
+              "label": "铁路专用器材制造业",
+              "value": "100106135216"
+            }, {
+              "label": "铁路专用设备制造业",
+              "value": "100106135217"
+            }, {
+              "label": "铁路信号设备制造业",
+              "value": "100106135218"
+            }, {
+              "label": "机车车辆配件制造业",
+              "value": "100106135219"
+            }, {
+              "label": "货车制造业",
+              "value": "100106135220"
+            }, {
+              "label": "客车制造业",
+              "value": "100106135221"
+            }, {
+              "label": "机车制造业",
+              "value": "100106135222"
+            }],
+            "label": "铁路运输设备制造业",
+            "value": "100106135"
+          }],
+          "label": "交通运输设备制造业",
+          "value": "100106"
+        }, {
+          "children": [{
+            "children": [{
+              "label": "其他专用机械设备修理业",
+              "value": "100107136223"
+            }, {
+              "label": "医疗器械修理业",
+              "value": "100107136224"
+            }, {
+              "label": "农、林、牧、渔、水利机械修理业",
+              "value": "100107136225"
+            }, {
+              "label": "工业专用设备修理业",
+              "value": "100107136226"
+            }],
+            "label": "专用机械设备修理业",
+            "value": "100107136"
+          }, {
+            "children": [{
+              "label": "其他类未包括的专用设备制造业",
+              "value": "100107137227"
+            }, {
+              "label": "社会公共安全设备及器材制造业",
+              "value": "100107137228"
+            }, {
+              "label": "环境保护机械制造业",
+              "value": "100107137229"
+            }, {
+              "label": "邮政机械及器材制造业",
+              "value": "100107137230"
+            }, {
+              "label": "商业、饮食业、服务业专用机械制造业",
+              "value": "100107137231"
+            }, {
+              "label": "缝纫机制造业",
+              "value": "100107137232"
+            }, {
+              "label": "畜牧兽医医疗器械制造业",
+              "value": "100107137233"
+            }, {
+              "label": "地质专用设备制造业",
+              "value": "100107137234"
+            }, {
+              "label": "建筑机械制造业",
+              "value": "100107137235"
+            }],
+            "label": "其他专用设备制造业",
+            "value": "100107137"
+          }, {
+            "children": [{
+              "label": "假肢、矫形器制造业",
+              "value": "100107138236"
+            }, {
+              "label": "医用材料及医疗用品制造业",
+              "value": "100107138237"
+            }, {
+              "label": "诊断用品制造业",
+              "value": "100107138238"
+            }, {
+              "label": "医疗仪器、设备制造业",
+              "value": "100107138239"
+            }, {
+              "label": "手术器械制造业",
+              "value": "100107138240"
+            }],
+            "label": "医疗器械制造业",
+            "value": "100107138"
+          }, {
+            "children": [{
+              "label": "其他农、林、牧、渔机械制造业",
+              "value": "100107139241"
+            }, {
+              "label": "拖拉机配件制造业",
+              "value": "100107139242"
+            }, {
+              "label": "水利机械制造业",
+              "value": "100107139243"
+            }, {
+              "label": "渔业机械制造业",
+              "value": "100107139244"
+            }, {
+              "label": "畜牧机械制造业",
+              "value": "100107139245"
+            }, {
+              "label": "营林机械制造业",
+              "value": "100107139246"
+            }, {
+              "label": "机械化农机具制造业",
+              "value": "100107139247"
+            }, {
+              "label": "拖拉机制造业",
+              "value": "100107139248"
+            }],
+            "label": "农、林、牧、渔、水利业机械制造业",
+            "value": "100107139"
+          }, {
+            "children": [{
+              "label": "日用化学工业专用设备制造业",
+              "value": "100107140249"
+            }, {
+              "label": "制浆、造纸工业专用设备制造业",
+              "value": "100107140250"
+            }, {
+              "label": "日用硅酸制品工业专用设备制造业",
+              "value": "100107140251"
+            }, {
+              "label": "照明器具工业专用设备制造业",
+              "value": "100107140252"
+            }, {
+              "label": "纺织、服装、皮革工业专用设备制造业",
+              "value": "100107140253"
+            }, {
+              "label": "包装工业专用设备制造业",
+              "value": "100107140254"
+            }, {
+              "label": "饲料工业专用设备制造业",
+              "value": "100107140255"
+            }, {
+              "label": "粮油工业专用设备制造业",
+              "value": "100107140256"
+            }, {
+              "label": "食品、饮料、烟草工业专用设备制造业",
+              "value": "100107140257"
+            }],
+            "label": "轻纺工业专用设备制造业",
+            "value": "100107140"
+          }, {
+            "children": [{
+              "label": "建筑材料及其他非金属矿物制品专用设备制造",
+              "value": "100107141258"
+            }, {
+              "label": "制药工业专用设备制造业",
+              "value": "100107141259"
+            }, {
+              "label": "印刷工业专用设备制造业",
+              "value": "100107141260"
+            }, {
+              "label": "森林工业专用设备制造业",
+              "value": "100107141261"
+            }, {
+              "label": "塑料工业专用设备制造业",
+              "value": "100107141262"
+            }, {
+              "label": "橡胶工业专用设备制造业",
+              "value": "100107141263"
+            }, {
+              "label": "化学纤维工业专用设备制造业",
+              "value": "100107141264"
+            }, {
+              "label": "化学工业专用设备制造业",
+              "value": "100107141265"
+            }, {
+              "label": "石油工业专用设备制造业",
+              "value": "100107141266"
+            }],
+            "label": "石化及其他工业专用设备制造业",
+            "value": "100107141"
+          }, {
+            "children": [{
+              "label": "其他机电工业专用设备制造业",
+              "value": "100107142267"
+            }, {
+              "label": "电子工业专用设备制造业",
+              "value": "100107142268"
+            }, {
+              "label": "电工专用设备制造业",
+              "value": "100107142269"
+            }, {
+              "label": "冶金工业专用设备制造业",
+              "value": "100107142270"
+            }, {
+              "label": "矿山设备制造业",
+              "value": "100107142271"
+            }],
+            "label": "冶金、矿山、机电工业专用设备制造业",
+            "value": "100107142"
+          }],
+          "label": "专用设备制造业",
+          "value": "100107"
+        }, {
+          "children": [{
+            "label": "核燃料加工业",
+            "value": "100118212"
+          }, {
+            "label": "炼焦业",
+            "value": "100118213"
+          }, {
+            "label": "石油制品业",
+            "value": "100118214"
+          }, {
+            "label": "原油加工业",
+            "value": "100118215"
+          }, {
+            "label": "人造原油生产业",
+            "value": "100118216"
+          }],
+          "label": "石油加工、炼焦及核燃料加工业",
+          "value": "100118"
+        }, {
+          "children": [{
+            "label": "其他类未包括的文教体育用品制造业",
+            "value": "100119217"
+          }, {
+            "label": "游艺器材制造业",
+            "value": "100119218"
+          }, {
+            "label": "玩具制造业",
+            "value": "100119219"
+          }, {
+            "children": [{
+              "label": "其他乐器及文娱用品制造业",
+              "value": "100119220436"
+            }, {
+              "label": "电子乐器制造业",
+              "value": "100119220437"
+            }, {
+              "label": "西乐器制造业",
+              "value": "100119220438"
+            }, {
+              "label": "中乐器制造业",
+              "value": "100119220439"
+            }],
+            "label": "乐器及其他文娱用品制造业",
+            "value": "100119220"
+          }, {
+            "children": [{
+              "label": "其他体育用品制造业",
+              "value": "100119221440"
+            }, {
+              "label": "体育器材制造业",
+              "value": "100119221441"
+            }, {
+              "label": "球类制造业",
+              "value": "100119221442"
+            }],
+            "label": "体育用品制造业",
+            "value": "100119221"
+          }, {
+            "children": [{
+              "label": "笔制造业",
+              "value": "100119222445"
+            }, {
+              "label": "本册制造业",
+              "value": "100119222446"
+            }, {
+              "label": "文具制造业",
+              "value": "100119222447"
+            }, {
+              "label": "其他文化用品制造业",
+              "value": "100119222443"
+            }, {
+              "label": "教学标本、模型制造业",
+              "value": "100119222444"
+            }],
+            "label": "文化用品制造业",
+            "value": "100119222"
+          }],
+          "label": "文教体育用品制造业",
+          "value": "100119"
+        }, {
+          "children": [{
+            "label": "铁合金冶炼业",
+            "value": "100111166"
+          }, {
+            "label": "钢压延加工业",
+            "value": "100111167"
+          }, {
+            "label": "炼钢业",
+            "value": "100111168"
+          }, {
+            "label": "炼铁业",
+            "value": "100111169"
+          }],
+          "label": "黑色金属冶炼及压延加工业",
+          "value": "100111"
+        }, {
+          "children": [{
+            "label": "其他类未包括的非金属矿物制品业",
+            "value": "100112170"
+          }, {
+            "children": [{
+              "label": "其他矿物纤维及其制品业",
+              "value": "100112171347"
+            }, {
+              "label": "玻璃钢制品业",
+              "value": "100112171348"
+            }, {
+              "label": "玻璃纤维及其制品业",
+              "value": "100112171349"
+            }],
+            "label": "矿物纤维及其制品业",
+            "value": "100112171"
+          }, {
+            "children": [{
+              "label": "其他石墨及碳素制品业",
+              "value": "100112172350"
+            }, {
+              "label": "电工用碳素制品业",
+              "value": "100112172351"
+            }, {
+              "label": "冶金用碳素制品业",
+              "value": "100112172352"
+            }],
+            "label": "石墨及碳素制品业",
+            "value": "100112172"
+          }, {
+            "children": [{
+              "label": "其他耐火材料制品业",
+              "value": "100112173353"
+            }, {
+              "label": "云母制品业",
+              "value": "100112173354"
+            }, {
+              "label": "石棉制品业",
+              "value": "100112173355"
+            }],
+            "label": "耐火材料制品业",
+            "value": "100112173"
+          }, {
+            "children": [{
+              "label": "其他陶瓷制品业",
+              "value": "100112174356"
+            }, {
+              "label": "日用陶瓷制造业",
+              "value": "100112174357"
+            }, {
+              "label": "工业用陶瓷制造业",
+              "value": "100112174358"
+            }, {
+              "label": "建筑、卫生陶瓷制造业",
+              "value": "100112174359"
+            }],
+            "label": "陶瓷制品业",
+            "value": "100112174"
+          }, {
+            "children": [{
+              "label": "其他玻璃及玻璃制品业",
+              "value": "100112175360"
+            }, {
+              "label": "玻璃保温容器制造业",
+              "value": "100112175361"
+            }, {
+              "label": "日用玻璃制品业",
+              "value": "100112175362"
+            }, {
+              "label": "玻璃仪器制造业",
+              "value": "100112175363"
+            }, {
+              "label": "光学玻璃制造业",
+              "value": "100112175364"
+            }, {
+              "label": "工业技术用玻璃制造业",
+              "value": "100112175365"
+            }, {
+              "label": "建筑用玻璃制品业",
+              "value": "100112175366"
+            }],
+            "label": "玻璃及玻璃制品业",
+            "value": "100112175"
+          }, {
+            "children": [{
+              "label": "其他砖瓦、石灰和轻质建筑材料制造业",
+              "value": "100112176367"
+            }, {
+              "label": "隔热保温材料制造业",
+              "value": "100112176368"
+            }, {
+              "label": "防水密封建筑材料制造业",
+              "value": "100112176369"
+            }, {
+              "label": "轻质建筑材料制造业",
+              "value": "100112176370"
+            }, {
+              "label": "建筑用石加工业",
+              "value": "100112176371"
+            }, {
+              "label": "石灰制造业",
+              "value": "100112176372"
+            }, {
+              "label": "砖瓦制造业",
+              "value": "100112176373"
+            }],
+            "label": "砖瓦、石灰和轻质建筑材料制造业",
+            "value": "100112176"
+          }, {
+            "children": [{
+              "label": "其他水泥制品业",
+              "value": "100112177374"
+            }, {
+              "label": "石棉水泥制品业",
+              "value": "100112177375"
+            }, {
+              "label": "砼结构构件制造业",
+              "value": "100112177376"
+            }, {
+              "label": "水泥制品业",
+              "value": "100112177377"
+            }],
+            "label": "水泥制品和石棉水泥制品业",
+            "value": "100112177"
+          }, {
+            "label": "水泥制造业",
+            "value": "100112178"
+          }],
+          "label": "非金属矿物制品业",
+          "value": "100112"
+        }, {
+          "children": [{
+            "label": "其他塑料制品业",
+            "value": "100113179"
+          }, {
+            "label": "塑料零件制造业",
+            "value": "100113180"
+          }, {
+            "label": "日用塑料杂品制造业",
+            "value": "100113181"
+          }, {
+            "label": "塑料鞋制造业",
+            "value": "100113182"
+          }, {
+            "label": "塑料包装箱及容器制造业",
+            "value": "100113183"
+          }, {
+            "label": "泡沫塑料及人造革、合成革制造业",
+            "value": "100113184"
+          }, {
+            "label": "塑料丝、绳及编织品制造业",
+            "value": "100113185"
+          }, {
+            "label": "塑料板、管、棒材制造业",
+            "value": "100113186"
+          }, {
+            "label": "塑料薄膜制造业",
+            "value": "100113187"
+          }],
+          "label": "塑料制品业",
+          "value": "100113"
+        }, {
+          "children": [{
+            "label": "其他橡胶制品业",
+            "value": "100114188"
+          }, {
+            "children": [{
+              "label": "其他橡胶制品翻修业",
+              "value": "100114189378"
+            }, {
+              "label": "轮胎翻新业",
+              "value": "100114189379"
+            }],
+            "label": "橡胶制品翻修业",
+            "value": "100114189"
+          }, {
+            "label": "日用橡胶制品业",
+            "value": "100114190"
+          }, {
+            "label": "橡胶靴鞋制造业",
+            "value": "100114191"
+          }, {
+            "label": "再生橡胶制造业",
+            "value": "100114192"
+          }, {
+            "label": "橡胶零件制品业",
+            "value": "100114193"
+          }, {
+            "label": "橡胶板、管、带制造业",
+            "value": "100114194"
+          }, {
+            "label": "力车胎制造业",
+            "value": "100114195"
+          }, {
+            "label": "轮胎制造业",
+            "value": "100114196"
+          }],
+          "label": "橡胶制品业",
+          "value": "100114"
+        }, {
+          "children": [{
+            "children": [{
+              "label": "其他渔具制造业",
+              "value": "100115197380"
+            }, {
+              "label": "渔网制造业",
+              "value": "100115197381"
+            }, {
+              "label": "渔具用绳制造业",
+              "value": "100115197382"
+            }, {
+              "label": "渔具用线制造业",
+              "value": "100115197383"
+            }, {
+              "label": "渔具用丝制造业",
+              "value": "100115197384"
+            }],
+            "label": "渔具及渔具材料制造业",
+            "value": "100115197"
+          }, {
+            "children": [{
+              "label": "其他合成纤维制造业",
+              "value": "100115198385"
+            }, {
+              "label": "维纶纤维制造业",
+              "value": "100115198386"
+            }, {
+              "label": "腈纶纤维制造业",
+              "value": "100115198387"
+            }, {
+              "label": "涤纶纤维制造业",
+              "value": "100115198388"
+            }, {
+              "label": "锦纶纤维制造业",
+              "value": "100115198389"
+            }],
+            "label": "合成纤维制造业",
+            "value": "100115198"
+          }, {
+            "children": [{
+              "label": "其他纤维素纤维制造业",
+              "value": "100115199390"
+            }, {
+              "label": "粘胶纤维制造业",
+              "value": "100115199391"
+            }, {
+              "label": "化纤浆粕制造业",
+              "value": "100115199392"
+            }],
+            "label": "纤维素纤维制造业",
+            "value": "100115199"
+          }],
+          "label": "化学纤维制造业",
+          "value": "100115"
+        }, {
+          "children": [{
+            "label": "生物制品业",
+            "value": "100116200"
+          }, {
+            "label": "动物药品制造业",
+            "value": "100116201"
+          }, {
+            "label": "中药材及中成药加工业",
+            "value": "100116202"
+          }, {
+            "label": "化学药品制剂制造业",
+            "value": "100116203"
+          }, {
+            "label": "化学药品原药制造业",
+            "value": "100116204"
+          }],
+          "label": "医药制造业",
+          "value": "100116"
+        }, {
+          "children": [{
+            "children": [{
+              "label": "添加剂制造业",
+              "value": "100117206402"
+            }, {
+              "label": "放射化学产品制造业",
+              "value": "100117206403"
+            }, {
+              "label": "信息化学品制造业",
+              "value": "100117206404"
+            }, {
+              "label": "炸药及火工产品制造业",
+              "value": "100117206405"
+            }, {
+              "label": "林产化学产品制造业",
+              "value": "100117206406"
+            }, {
+              "label": "专项化学用品制造业",
+              "value": "100117206407"
+            }, {
+              "label": "化学试剂、助剂制造业",
+              "value": "100117206408"
+            }],
+            "label": "专用化学产品制造业",
+            "value": "100117206"
+          }, {
+            "children": [{
+              "label": "其他合成材料制造业",
+              "value": "100117207409"
+            }, {
+              "label": "合成纤维单（聚合）体制造业",
+              "value": "100117207410"
+            }, {
+              "label": "合成橡胶制造业",
+              "value": "100117207411"
+            }, {
+              "label": "有机硅氟材料制造业",
+              "value": "100117207412"
+            }, {
+              "label": "功能高分子制造业",
+              "value": "100117207413"
+            }, {
+              "label": "工程塑料制造业",
+              "value": "100117207414"
+            }, {
+              "label": "热固性树脂及塑料制造业",
+              "value": "100117207415"
+            }, {
+              "label": "聚烯烃塑料制造业",
+              "value": "100117207416"
+            }],
+            "label": "合成材料制造业",
+            "value": "100117207"
+          }, {
+            "children": [{
+              "label": "其他有机化学产品制造业",
+              "value": "100117208417"
+            }, {
+              "label": "染料制造业",
+              "value": "100117208418"
+            }, {
+              "label": "颜料制造业",
+              "value": "100117208419"
+            }, {
+              "label": "油墨制造业",
+              "value": "100117208420"
+            }, {
+              "label": "涂料制造业",
+              "value": "100117208421"
+            }, {
+              "label": "有机化工原料制造业",
+              "value": "100117208422"
+            }],
+            "label": "有机化学产品制造业",
+            "value": "100117208"
+          }, {
+            "children": [{
+              "label": "农药制剂制造业",
+              "value": "100117209423"
+            }, {
+              "label": "农药原药制造业",
+              "value": "100117209424"
+            }],
+            "label": "化学农药制造业",
+            "value": "100117209"
+          }, {
+            "children": [{
+              "label": "其他化学肥料制造业",
+              "value": "100117210425"
+            }, {
+              "label": "微量元素肥料制造业",
+              "value": "100117210426"
+            }, {
+              "label": "复合肥料制造业",
+              "value": "100117210427"
+            }, {
+              "label": "钾肥制造业",
+              "value": "100117210428"
+            }, {
+              "label": "磷肥制造业",
+              "value": "100117210429"
+            }, {
+              "label": "氮肥制造业",
+              "value": "100117210430"
+            }],
+            "label": "化学肥料制造业",
+            "value": "100117210"
+          }, {
+            "children": [{
+              "label": "其他基本化学原料制造业",
+              "value": "100117211431"
+            }, {
+              "label": "无机盐制造业",
+              "value": "100117211432"
+            }, {
+              "label": "纯碱制造业",
+              "value": "100117211433"
+            }, {
+              "label": "烧碱制造业",
+              "value": "100117211434"
+            }, {
+              "label": "无机酸制造业",
+              "value": "100117211435"
+            }],
+            "label": "基本化学原料制造业",
+            "value": "100117211"
+          }, {
+            "children": [{
+              "label": "化妆品制造业",
+              "value": "100117205397"
+            }, {
+              "label": "香料、香精制造业",
+              "value": "100117205398"
+            }, {
+              "label": "硬脂酸、硬化油制造业",
+              "value": "100117205399"
+            }, {
+              "label": "合成脂肪酸制造业",
+              "value": "100117205400"
+            }, {
+              "label": "肥皂及皂粉、合成洗涤剂制造业",
+              "value": "100117205401"
+            }, {
+              "label": "其他日用化学产品制造业",
+              "value": "100117205393"
+            }, {
+              "label": "动物胶制造业",
+              "value": "100117205394"
+            }, {
+              "label": "火柴制造业",
+              "value": "100117205395"
+            }, {
+              "label": "牙膏制造业",
+              "value": "100117205396"
+            }],
+            "label": "日用化学产品制造业",
+            "value": "100117205"
+          }],
+          "label": "化学原料及化学制品制造业",
+          "value": "100117"
+        }, {
+          "children": [{
+            "label": "其他普通机械制造业",
+            "value": "100108143"
+          }, {
+            "label": "普通机械修理业",
+            "value": "100108144"
+          }, {
+            "children": [{
+              "label": "锻件制造业",
+              "value": "100108145272"
+            }, {
+              "label": "铸件制造业",
+              "value": "100108145273"
+            }],
+            "label": "铸锻件制造业",
+            "value": "100108145"
+          }, {
+            "children": [{
+              "label": "其他类未包括的通用零部件",
+              "value": "100108146274"
+            }, {
+              "label": "齿轮制造业",
+              "value": "100108146275"
+            }, {
+              "label": "链条制造业",
+              "value": "100108146276"
+            }, {
+              "label": "弹簧制造业",
+              "value": "100108146277"
+            }, {
+              "label": "紧固件制造业",
+              "value": "100108146278"
+            }, {
+              "label": "粉末冶金制品业",
+              "value": "100108146279"
+            }, {
+              "label": "密封件制造业",
+              "value": "100108146280"
+            }, {
+              "label": "气动元件制造业",
+              "value": "100108146281"
+            }, {
+              "label": "液压件及液力件制造业",
+              "value": "100108146282"
+            }],
+            "label": "其他通用零部件制造业",
+            "value": "100108146"
+          }, {
+            "children": [{
+              "label": "阀门制造业",
+              "value": "100108147283"
+            }, {
+              "label": "轴承制造业",
+              "value": "100108147284"
+            }],
+            "label": "轴承、阀门制造业",
+            "value": "100108147"
+          }, {
+            "children": [{
+              "label": "其他通用设备制造业",
+              "value": "100108148285"
+            }, {
+              "label": "电动工具制造业",
+              "value": "100108148286"
+            }, {
+              "label": "风动工具制造业",
+              "value": "100108148287"
+            }, {
+              "label": "冷冻设备制造业",
+              "value": "100108148288"
+            }, {
+              "label": "气体压缩机及气体分离设备制造业",
+              "value": "100108148289"
+            }, {
+              "label": "风机制造业",
+              "value": "100108148290"
+            }, {
+              "label": "泵制造业",
+              "value": "100108148291"
+            }, {
+              "label": "工矿车辆制造业",
+              "value": "100108148292"
+            }, {
+              "label": "起重运输设备制造业",
+              "value": "100108148293"
+            }],
+            "label": "通用设备制造业",
+            "value": "100108148"
+          }, {
+            "children": [{
+              "label": "其他金属加工机械制造业",
+              "value": "100108149294"
+            }, {
+              "label": "机床附件制造业",
+              "value": "100108149295"
+            }, {
+              "label": "铸造机械制造业",
+              "value": "100108149296"
+            }, {
+              "label": "锻压设备制造业",
+              "value": "100108149297"
+            }, {
+              "label": "金属切削机床制造业",
+              "value": "100108149298"
+            }],
+            "label": "金属加工机械制造业",
+            "value": "100108149"
+          }, {
+            "children": [{
+              "label": "其他锅炉及原动机制造业",
+              "value": "100108150299"
+            }, {
+              "label": "内燃机零部件及配件制造业",
+              "value": "100108150300"
+            }, {
+              "label": "水轮机制造业",
+              "value": "100108150301"
+            }, {
+              "label": "汽轮机制造业",
+              "value": "100108150302"
+            }, {
+              "label": "内燃机制造业",
+              "value": "100108150303"
+            }, {
+              "label": "锅炉制造业",
+              "value": "100108150304"
+            }],
+            "label": "锅炉及原动机制造业",
+            "value": "100108150"
+          }],
+          "label": "普通机械制造业",
+          "value": "100108"
+        }, {
+          "children": [{
+            "children": [{
+              "label": "其他类未包括的金属制品业",
+              "value": "100109151305"
+            }, {
+              "label": "焊条制造业",
+              "value": "100109151306"
+            }, {
+              "label": "铁制小农具制造业",
+              "value": "100109151307"
+            }],
+            "label": "其他金属制品业",
+            "value": "100109151"
+          }, {
+            "children": [{
+              "label": "其他日用金属制品业",
+              "value": "100109152308"
+            }, {
+              "label": "理发用具制造业",
+              "value": "100109152309"
+            }, {
+              "label": "燃气用具制造业",
+              "value": "100109152310"
+            }, {
+              "label": "炊事用具制造业",
+              "value": "100109152311"
+            }, {
+              "label": "制锁业",
+              "value": "100109152312"
+            }, {
+              "label": "刀剪制造业",
+              "value": "100109152313"
+            }, {
+              "label": "不锈钢制品业",
+              "value": "100109152314"
+            }, {
+              "label": "铝制品业",
+              "value": "100109152315"
+            }, {
+              "label": "搪瓷制造业",
+              "value": "100109152316"
+            }],
+            "label": "日用金属制品业",
+            "value": "100109152"
+          }, {
+            "label": "金属表面处理及热处理业",
+            "value": "100109153"
+          }, {
+            "children": [{
+              "label": "其他建筑用金属制品业",
+              "value": "100109154317"
+            }, {
+              "label": "金属门窗制造业",
+              "value": "100109154318"
+            }, {
+              "label": "水暖管道零件制造业",
+              "value": "100109154319"
+            }, {
+              "label": "建筑小五金制造业",
+              "value": "100109154320"
+            }],
+            "label": "建筑用金属制品业",
+            "value": "100109154"
+          }, {
+            "label": "金属丝绳及其制品业",
+            "value": "100109155"
+          }, {
+            "children": [{
+              "label": "金属包装物品及容器制造业",
+              "value": "100109156321"
+            }, {
+              "label": "集装箱制造业",
+              "value": "100109156322"
+            }],
+            "label": "集装箱和金属包装物品制造业",
+            "value": "100109156"
+          }, {
+            "children": [{
+              "label": "其他工具制造业",
+              "value": "100109157323"
+            }, {
+              "label": "手工具制造业",
+              "value": "100109157324"
+            }, {
+              "label": "模具制造业",
+              "value": "100109157325"
+            }, {
+              "label": "切削工具制造业",
+              "value": "100109157326"
+            }],
+            "label": "工具制造业",
+            "value": "100109157"
+          }, {
+            "label": "铸铁管制造业",
+            "value": "100109158"
+          }, {
+            "label": "金属结构制造业",
+            "value": "100109159"
+          }],
+          "label": "金属制品业",
+          "value": "100109"
+        }, {
+          "children": [{
+            "label": "有色金属合金业",
+            "value": "100110161"
+          }, {
+            "children": [{
+              "label": "其他稀有稀土金属冶炼业",
+              "value": "100110162331"
+            }, {
+              "label": "钨钼冶炼业",
+              "value": "100110162332"
+            }],
+            "label": "稀有稀土金属冶炼业",
+            "value": "100110162"
+          }, {
+            "children": [{
+              "label": "其他贵金属冶炼业",
+              "value": "100110163333"
+            }, {
+              "label": "银冶炼业",
+              "value": "100110163334"
+            }, {
+              "label": "金冶炼业",
+              "value": "100110163335"
+            }],
+            "label": "贵金属冶炼业",
+            "value": "100110163"
+          }, {
+            "children": [{
+              "label": "其他轻有色金属冶炼业",
+              "value": "100110164336"
+            }, {
+              "label": "钛冶炼业",
+              "value": "100110164337"
+            }, {
+              "label": "镁冶炼业",
+              "value": "100110164338"
+            }, {
+              "label": "铝冶炼业",
+              "value": "100110164339"
+            }],
+            "label": "轻有色金属冶炼业",
+            "value": "100110164"
+          }, {
+            "children": [{
+              "label": "其他重有色金属冶炼业",
+              "value": "100110165340"
+            }, {
+              "label": "汞冶炼业",
+              "value": "100110165341"
+            }, {
+              "label": "锑冶炼业",
+              "value": "100110165342"
+            }, {
+              "label": "锡冶炼业",
+              "value": "100110165343"
+            }, {
+              "label": "镍钴冶炼业",
+              "value": "100110165344"
+            }, {
+              "label": "铅锌冶炼业",
+              "value": "100110165345"
+            }, {
+              "label": "铜冶炼业",
+              "value": "100110165346"
+            }],
+            "label": "重有色金属冶炼业",
+            "value": "100110165"
+          }, {
+            "children": [{
+              "label": "稀有稀土金属压延加工业",
+              "value": "100110160327"
+            }, {
+              "label": "贵金属压延加工业",
+              "value": "100110160328"
+            }, {
+              "label": "轻有色金属压延加工业",
+              "value": "100110160329"
+            }, {
+              "label": "重有色金属压延加工业",
+              "value": "100110160330"
+            }],
+            "label": "有色金属压延加工业",
+            "value": "100110160"
+          }],
+          "label": "有色金属冶炼及压延加工业",
+          "value": "100110"
+        }, {
+          "label": "废弃资源和废旧材料回收加工业",
+          "value": "100100"
+        }, {
+          "children": [{
+            "children": [{
+              "label": "生活用其他产品制造业",
+              "value": "100101100100"
+            }, {
+              "label": "生产用其他产品制造业",
+              "value": "100101100101"
+            }],
+            "label": "其他生产、生活用品制造业",
+            "value": "100101100"
+          }, {
+            "children": [{
+              "label": "鬃毛加工及制刷业",
+              "value": "100101101102"
+            }, {
+              "label": "制伞业",
+              "value": "100101101103"
+            }, {
+              "label": "眼镜制造业",
+              "value": "100101101104"
+            }, {
+              "label": "制镜业",
+              "value": "100101101105"
+            }],
+            "label": "日用杂品制造业",
+            "value": "100101101"
+          }, {
+            "children": [{
+              "label": "其他工艺美术品制造业",
+              "value": "100101102106"
+            }, {
+              "label": "首饰制造业",
+              "value": "100101102107"
+            }, {
+              "label": "地毯制造业",
+              "value": "100101102108"
+            }, {
+              "label": "抽纱剌绣工艺品制造业",
+              "value": "100101102109"
+            }, {
+              "label": "竹、藤、棕、草工艺品制造业",
+              "value": "100101102110"
+            }, {
+              "label": "花画工艺品制造业",
+              "value": "100101102111"
+            }, {
+              "label": "漆器工艺品制造业",
+              "value": "100101102112"
+            }, {
+              "label": "金属工艺品制造业",
+              "value": "100101102113"
+            }, {
+              "label": "雕塑工艺品制造业",
+              "value": "100101102114"
+            }],
+            "label": "工艺美术品制造业",
+            "value": "100101102"
+          }],
+          "label": "工艺品及其他制造业",
+          "value": "100101"
+        }],
+        "label": "制造业",
+        "value": "100"
+      }, {
+        "children": [{
+          "children": [{
+            "label": "水供应业",
+            "value": "101131272"
+          }, {
+            "label": "水生产业",
+            "value": "101131273"
+          }],
+          "label": "水的生产和供应业",
+          "value": "101131"
+        }, {
+          "children": [{
+            "label": "燃气供应业",
+            "value": "101132274"
+          }, {
+            "label": "燃气生产业",
+            "value": "101132275"
+          }],
+          "label": "燃气生产和供应业",
+          "value": "101132"
+        }, {
+          "children": [{
+            "label": "蒸汽、热水生产和供应业",
+            "value": "101133276"
+          }, {
+            "label": "电力供应业",
+            "value": "101133277"
+          }, {
+            "children": [{
+              "label": "其他电业",
+              "value": "101133278569"
+            }, {
+              "label": "核力发电业",
+              "value": "101133278570"
+            }, {
+              "label": "水力发电业",
+              "value": "101133278571"
+            }, {
+              "label": "火力发电业",
+              "value": "101133278572"
+            }],
+            "label": "电力生产业",
+            "value": "101133278"
+          }],
+          "label": "电力、热力的生产和供应业",
+          "value": "101133"
+        }],
+        "label": "电力、燃气及水的生产和供应业",
+        "value": "101"
+      }, {
+        "children": [{
+          "label": "其他建筑业",
+          "value": "102134"
+        }, {
+          "label": "装修装饰业",
+          "value": "102135"
+        }, {
+          "children": [{
+            "label": "设备安装业",
+            "value": "102136279"
+          }, {
+            "label": "线路、管道安装业",
+            "value": "102136280"
+          }],
+          "label": "线路、管道和设备安装业",
+          "value": "102136"
+        }, {
+          "children": [{
+            "label": "其他土木工程建筑业",
+            "value": "102137281"
+          }, {
+            "label": "堤坝、电站、码头建筑业",
+            "value": "102137282"
+          }, {
+            "label": "铁路、公路、隧道、桥梁建筑业",
+            "value": "102137283"
+          }, {
+            "label": "矿山建筑业",
+            "value": "102137284"
+          }, {
+            "label": "房屋建筑业",
+            "value": "102137285"
+          }],
+          "label": "房屋和土木工程建筑业",
+          "value": "102137"
+        }],
+        "label": "建筑业",
+        "value": "102"
+      }, {
+        "children": [{
+          "label": "水利管理业",
+          "value": "103138"
+        }, {
+          "children": [{
+            "label": "地质工程技术及其他技术服务业",
+            "value": "103139286"
+          }, {
+            "label": "地球物理和地球化学勘查业",
+            "value": "103139287"
+          }, {
+            "label": "环境地质勘查业",
+            "value": "103139288"
+          }, {
+            "label": "工程地质勘查业",
+            "value": "103139289"
+          }, {
+            "children": [{
+              "label": "水文地质勘查业",
+              "value": "103139290573"
+            }, {
+              "label": "非金属矿产地质勘查业",
+              "value": "103139290574"
+            }, {
+              "label": "其他金属矿产地质勘查业",
+              "value": "103139290575"
+            }, {
+              "label": "贵金属矿产地质勘查业",
+              "value": "103139290576"
+            }, {
+              "label": "有色金属矿产地质勘查业",
+              "value": "103139290577"
+            }, {
+              "label": "黑色金属矿产地质勘查业",
+              "value": "103139290578"
+            }, {
+              "label": "煤炭地质勘查业",
+              "value": "103139290579"
+            }, {
+              "label": "石油、天然气地质勘查业",
+              "value": "103139290580"
+            }],
+            "label": "矿产地质勘查业",
+            "value": "103139290"
+          }, {
+            "label": "海洋地质勘查业",
+            "value": "103139291"
+          }, {
+            "label": "区域地质勘查业",
+            "value": "103139292"
+          }],
+          "label": "地质勘查业",
+          "value": "103139"
+        }],
+        "label": "地质勘查业、水利管理业",
+        "value": "103"
+      }, {
+        "children": [{
+          "label": "仓储业",
+          "value": "104140"
+        }, {
+          "label": "其他交通运输业",
+          "value": "104141"
+        }, {
+          "children": [{
+            "label": "其他市内公共交通业",
+            "value": "104142293"
+          }, {
+            "label": "市内轮渡业",
+            "value": "104142294"
+          }, {
+            "label": "轨道交通业",
+            "value": "104142295"
+          }, {
+            "label": "出租汽车业",
+            "value": "104142296"
+          }, {
+            "label": "市内公共汽电车业",
+            "value": "104142297"
+          }],
+          "label": "城市公共交通业",
+          "value": "104142"
+        }, {
+          "children": [{
+            "label": "其他类未包括的交通运输辅助业",
+            "value": "104143298"
+          }, {
+            "label": "装卸搬运业",
+            "value": "104143299"
+          }, {
+            "label": "机场及航空运输辅助业",
+            "value": "104143300"
+          }, {
+            "label": "水运辅助业",
+            "value": "104143301"
+          }, {
+            "children": [{
+              "label": "内河、内湖港口业",
+              "value": "104143302581"
+            }, {
+              "label": "沿海港口业",
+              "value": "104143302582"
+            }],
+            "label": "港口业",
+            "value": "104143302"
+          }, {
+            "label": "公路管理及养护业",
+            "value": "104143303"
+          }],
+          "label": "交通运输辅助业",
+          "value": "104143"
+        }, {
+          "children": [{
+            "label": "通用航空业",
+            "value": "104144304"
+          }, {
+            "label": "航空客货运输业",
+            "value": "104144305"
+          }],
+          "label": "航空运输业",
+          "value": "104144"
+        }, {
+          "children": [{
+            "label": "其他水上运输业",
+            "value": "104145306"
+          }, {
+            "label": "内河、内湖运输业",
+            "value": "104145307"
+          }, {
+            "label": "沿海运输业",
+            "value": "104145308"
+          }, {
+            "label": "远洋运输业",
+            "value": "104145309"
+          }],
+          "label": "水上运输业",
+          "value": "104145"
+        }, {
+          "label": "管道运输业",
+          "value": "104146"
+        }, {
+          "children": [{
+            "label": "其他公路运输业",
+            "value": "104147310"
+          }, {
+            "label": "汽车运输业",
+            "value": "104147311"
+          }],
+          "label": "公路运输业",
+          "value": "104147"
+        }, {
+          "label": "铁路运输业",
+          "value": "104148"
+        }],
+        "label": "交通运输、仓储业",
+        "value": "104"
+      }, {
+        "children": [{
+          "children": [{
+            "label": "其他类未包括的批发业",
+            "value": "105151320"
+          }, {
+            "label": "农业生产资料批发业",
+            "value": "105151321"
+          }, {
+            "label": "图书报刊批发业",
+            "value": "105151322"
+          }, {
+            "label": "工艺美术品批发业",
+            "value": "105151323"
+          }],
+          "label": "其他批发业",
+          "value": "105151"
+        }, {
+          "children": [{
+            "label": "再生物资回收批发业",
+            "value": "105152324"
+          }, {
+            "children": [{
+              "label": "汽车、摩托车零配件批发业",
+              "value": "105152325598"
+            }, {
+              "label": "摩托车批发业",
+              "value": "105152325599"
+            }, {
+              "label": "汽车批发业",
+              "value": "105152325600"
+            }],
+            "label": "汽车、摩托车及零配件批发业",
+            "value": "105152325"
+          }, {
+            "label": "机械、电子设备批发业",
+            "value": "105152326"
+          }, {
+            "children": [{
+              "label": "有色金属材料批发业",
+              "value": "105152327601"
+            }, {
+              "label": "黑色金属材料批发业",
+              "value": "105152327602"
+            }],
+            "label": "金属材料批发业",
+            "value": "105152327"
+          }, {
+            "label": "矿产品批发业",
+            "value": "105152328"
+          }, {
+            "label": "建筑材料批发业",
+            "value": "105152329"
+          }, {
+            "label": "木材批发业",
+            "value": "105152330"
+          }, {
+            "label": "化工材料批发业",
+            "value": "105152331"
+          }, {
+            "children": [{
+              "label": "其他能源批发业",
+              "value": "105152332603"
+            }, {
+              "label": "煤炭及制品批发业",
+              "value": "105152332604"
+            }, {
+              "label": "石油及制品批发业",
+              "value": "105152332605"
+            }],
+            "label": "能源批发业",
+            "value": "105152332"
+          }],
+          "label": "能源、材料和机械电子设备批发业",
+          "value": "105152"
+        }, {
+          "children": [{
+            "children": [{
+              "label": "医疗器械批发业",
+              "value": "105153333606"
+            }, {
+              "label": "中草药及制品批发业",
+              "value": "105153333607"
+            }, {
+              "label": "西药批发业",
+              "value": "105153333608"
+            }],
+            "label": "药品及医疗器械批发业",
+            "value": "105153333"
+          }, {
+            "label": "五金、交电、化工批发业",
+            "value": "105153334"
+          }, {
+            "label": "日用杂品批发业",
+            "value": "105153335"
+          }, {
+            "children": [{
+              "label": "其他日用百货批发业",
+              "value": "105153336609"
+            }, {
+              "label": "文化用品、钟表眼镜批发业",
+              "value": "105153336610"
+            }, {
+              "label": "百货批发业",
+              "value": "105153336611"
+            }],
+            "label": "日用百货批发业",
+            "value": "105153336"
+          }, {
+            "children": [{
+              "label": "鞋帽批发业",
+              "value": "105153337612"
+            }, {
+              "label": "服装批发业",
+              "value": "105153337613"
+            }, {
+              "label": "纺织品批发业",
+              "value": "105153337614"
+            }],
+            "label": "纺织品、服装和鞋帽批发业",
+            "value": "105153337"
+          }, {
+            "children": [{
+              "label": "畜产品批发业",
+              "value": "105153338615"
+            }, {
+              "label": "棉、麻批发业",
+              "value": "105153338616"
+            }],
+            "label": "棉、麻、土畜产品批发业",
+            "value": "105153338"
+          }, {
+            "children": [{
+              "label": "其他食品、饮料、烟草批发业",
+              "value": "105153339617"
+            }, {
+              "label": "盐及调味品批发业",
+              "value": "105153339618"
+            }, {
+              "label": "烟草及其制品批发业",
+              "value": "105153339619"
+            }, {
+              "label": "茶叶批发业",
+              "value": "105153339620"
+            }, {
+              "label": "蔬菜、果品批发业",
+              "value": "105153339621"
+            }, {
+              "label": "水产品批发业",
+              "value": "105153339622"
+            }, {
+              "label": "肉、禽、蛋及其制品批发业",
+              "value": "105153339623"
+            }, {
+              "label": "糕点、糖果和饮料批发业",
+              "value": "105153339624"
+            }, {
+              "label": "粮食、食用油批发业",
+              "value": "105153339625"
+            }],
+            "label": "食品、饮料、烟草批发业",
+            "value": "105153339"
+          }],
+          "label": "食品、饮料、烟草和家庭用品批发业",
+          "value": "105153"
+        }, {
+          "label": "商业经纪与代理业",
+          "value": "105149"
+        }, {
+          "children": [{
+            "children": [{
+              "label": "其他食品、饮料和烟草零售业",
+              "value": "105150319595"
+            }, {
+              "label": "副食品零售业",
+              "value": "105150319596"
+            }, {
+              "label": "粮油食品零售业",
+              "value": "105150319597"
+            }],
+            "label": "食品、饮料和烟草零售业",
+            "value": "105150319"
+          }, {
+            "children": [{
+              "label": "其他类未包括的零售业",
+              "value": "105150312583"
+            }, {
+              "label": "首饰业",
+              "value": "105150312584"
+            }, {
+              "label": "信托业",
+              "value": "105150312585"
+            }, {
+              "label": "计算机及软件、办公设备零售业",
+              "value": "105150312586"
+            }, {
+              "label": "汽车、摩托车及其零配件零售业",
+              "value": "105150312587"
+            }, {
+              "label": "石油制品零售业",
+              "value": "105150312588"
+            }, {
+              "label": "煤炭零售业",
+              "value": "105150312589"
+            }, {
+              "label": "家具零售业",
+              "value": "105150312590"
+            }],
+            "label": "其他零售业",
+            "value": "105150312"
+          }, {
+            "label": "图书报刊零售业",
+            "value": "105150313"
+          }, {
+            "label": "药品及医疗器械零售业",
+            "value": "105150314"
+          }, {
+            "label": "五金、交电、化工零售业",
+            "value": "105150315"
+          }, {
+            "label": "日用杂品零售业",
+            "value": "105150316"
+          }, {
+            "label": "纺织品、服装和鞋帽零售业",
+            "value": "105150317"
+          }, {
+            "children": [{
+              "label": "其他日用百货零售业",
+              "value": "105150318591"
+            }, {
+              "label": "钟表、眼镜及照相器材零售业",
+              "value": "105150318592"
+            }, {
+              "label": "文化体育用品零售业",
+              "value": "105150318593"
+            }, {
+              "label": "百货零售业",
+              "value": "105150318594"
+            }],
+            "label": "日用百货零售业",
+            "value": "105150318"
+          }],
+          "label": "零售业",
+          "value": "105150"
+        }],
+        "label": "批发和零售贸易",
+        "value": "105"
+      }, {
+        "children": [{
+          "children": [{
+            "label": "电视",
+            "value": "110174379"
+          }, {
+            "label": "电影",
+            "value": "110174380"
+          }, {
+            "label": "广播",
+            "value": "110174381"
+          }],
+          "label": "广播电影电视业",
+          "value": "110174"
+        }, {
+          "children": [{
+            "label": "其他文化艺术业",
+            "value": "110175382"
+          }, {
+            "label": "文化艺术经纪与代理业",
+            "value": "110175383"
+          }, {
+            "label": "新闻",
+            "value": "110175384"
+          }, {
+            "label": "群众文化",
+            "value": "110175385"
+          }, {
+            "label": "档案馆",
+            "value": "110175386"
+          }, {
+            "label": "图书馆",
+            "value": "110175387"
+          }, {
+            "label": "文物保护",
+            "value": "110175388"
+          }, {
+            "label": "出版",
+            "value": "110175389"
+          }, {
+            "label": "艺术",
+            "value": "110175390"
+          }],
+          "label": "文化艺术业",
+          "value": "110175"
+        }, {
+          "children": [{
+            "label": "其他教育",
+            "value": "110176391"
+          }, {
+            "label": "特殊教育",
+            "value": "110176392"
+          }, {
+            "label": "学前教育",
+            "value": "110176393"
+          }, {
+            "children": [{
+              "label": "成人初等学校",
+              "value": "110176394638"
+            }, {
+              "label": "小学校",
+              "value": "110176394639"
+            }],
+            "label": "初等教育",
+            "value": "110176394"
+          }, {
+            "children": [{
+              "label": "成人高等教育",
+              "value": "110176395640"
+            }, {
+              "label": "普通高等教育",
+              "value": "110176395641"
+            }],
+            "label": "高等教育",
+            "value": "110176395"
+          }],
+          "label": "教育",
+          "value": "110176"
+        }],
+        "label": "教育、文化艺术及广播电影电视业",
+        "value": "110"
+      }, {
+        "children": [{
+          "children": [{
+            "label": "其他科学技术服务业",
+            "value": "111177396"
+          }, {
+            "label": "工程设计业",
+            "value": "111177397"
+          }, {
+            "label": "技术推广和科技交流服务业",
+            "value": "111177398"
+          }, {
+            "label": "环境保护",
+            "value": "111177399"
+          }, {
+            "label": "海洋环境",
+            "value": "111177400"
+          }, {
+            "label": "技术监督",
+            "value": "111177401"
+          }, {
+            "label": "测绘",
+            "value": "111177402"
+          }, {
+            "label": "地震",
+            "value": "111177403"
+          }, {
+            "label": "气象",
+            "value": "111177404"
+          }],
+          "label": "科学技术服务业",
+          "value": "111177"
+        }, {
+          "children": [{
+            "label": "其他科学研究",
+            "value": "111178405"
+          }, {
+            "label": "社会科学研究",
+            "value": "111178406"
+          }, {
+            "label": "自然科学研究",
+            "value": "111178407"
+          }],
+          "label": "科学研究业",
+          "value": "111178"
+        }],
+        "label": "科学研究和科学技术服务业",
+        "value": "111"
+      }, {
+        "children": [{
+          "children": [{
+            "label": "村民委员会",
+            "value": "112179408"
+          }, {
+            "label": "居民委员会",
+            "value": "112179409"
+          }],
+          "label": "基层群众自治组织",
+          "value": "112179"
+        }, {
+          "label": "社会团体",
+          "value": "112180"
+        }, {
+          "label": "政党机关",
+          "value": "112181"
+        }, {
+          "label": "国家机关",
+          "value": "112182"
+        }],
+        "label": "国家机关、政党机关和社会团体",
+        "value": "112"
+      }, {
+        "children": [{
+          "children": [{
+            "label": "计算机设备维护咨询业",
+            "value": "113183410"
+          }, {
+            "label": "数据库服务业",
+            "value": "113183411"
+          }, {
+            "label": "数据处理业",
+            "value": "113183412"
+          }, {
+            "label": "软件开发咨询业",
+            "value": "113183413"
+          }],
+          "label": "计算机应用服务业",
+          "value": "113183"
+        }, {
+          "label": "其他信息传输服务业",
+          "value": "113184"
+        }, {
+          "label": "邮电业",
+          "value": "113185"
+        }, {
+          "label": "电信业",
+          "value": "113186"
+        }, {
+          "label": "邮政业",
+          "value": "113187"
+        }],
+        "label": "邮电、通信、计算机服务和软件业",
+        "value": "113"
+      }, {
+        "children": [{
+          "label": "住宿业",
+          "value": "114188"
+        }, {
+          "children": [{
+            "children": [{
+              "label": "其他类未包括的餐饮业",
+              "value": "114189414642"
+            }, {
+              "label": "茶馆",
+              "value": "114189414643"
+            }, {
+              "label": "冷饮",
+              "value": "114189414644"
+            }, {
+              "label": "小吃",
+              "value": "114189414645"
+            }],
+            "label": "其他餐饮业",
+            "value": "114189414"
+          }, {
+            "label": "快餐",
+            "value": "114189415"
+          }, {
+            "label": "正餐",
+            "value": "114189416"
+          }],
+          "label": "餐饮业",
+          "value": "114189"
+        }],
+        "label": "住宿和餐饮业",
+        "value": "114"
+      }]
+    },
+  
+    "province": {
+      "count": "34",
+      "enum": [
+        {
+          "id": "156110000",
+          "value": "北京市"
+        },
+        {
+          "id": "156120000",
+          "value": "天津市"
+        },
+        {
+          "id": "156130000",
+          "value": "河北省"
+        },
+        {
+          "id": "156140000",
+          "value": "山西省"
+        },
+        {
+          "id": "156150000",
+          "value": "内蒙古自治区"
+        },
+        {
+          "id": "156210000",
+          "value": "辽宁省"
+        },
+        {
+          "id": "156220000",
+          "value": "吉林省"
+        },
+        {
+          "id": "156230000",
+          "value": "黑龙江省"
+        },
+        {
+          "id": "156310000",
+          "value": "上海市"
+        },
+        {
+          "id": "156320000",
+          "value": "江苏省"
+        },
+        {
+          "id": "156330000",
+          "value": "浙江省"
+        },
+        {
+          "id": "156340000",
+          "value": "安徽省"
+        },
+        {
+          "id": "156350000",
+          "value": "福建省"
+        },
+        {
+          "id": "156360000",
+          "value": "江西省"
+        },
+        {
+          "id": "156370000",
+          "value": "山东省"
+        },
+        {
+          "id": "156410000",
+          "value": "河南省"
+        },
+        {
+          "id": "156420000",
+          "value": "湖北省"
+        },
+        {
+          "id": "156430000",
+          "value": "湖南省"
+        },
+        {
+          "id": "156440000",
+          "value": "广东省"
+        },
+        {
+          "id": "156450000",
+          "value": "广西壮族自治区"
+        },
+        {
+          "id": "156460000",
+          "value": "海南省"
+        },
+        {
+          "id": "156500000",
+          "value": "重庆市"
+        },
+        {
+          "id": "156510000",
+          "value": "四川省"
+        },
+        {
+          "id": "156520000",
+          "value": "贵州省"
+        },
+        {
+          "id": "156530000",
+          "value": "云南省"
+        },
+        {
+          "id": "156540000",
+          "value": "西藏自治区"
+        },
+        {
+          "id": "156610000",
+          "value": "陕西省"
+        },
+        {
+          "id": "156620000",
+          "value": "甘肃省"
+        },
+        {
+          "id": "156630000",
+          "value": "青海省"
+        },
+        {
+          "id": "156640000",
+          "value": "宁夏回族自治区"
+        },
+        {
+          "id": "156650000",
+          "value": "新疆维吾尔自治区"
+        },
+        {
+          "id": "156710000",
+          "value": "台湾省"
+        },
+        {
+          "id": "156810000",
+          "value": "香港特别行政区"
+        },
+        {
+          "id": "156820000",
+          "value": "澳门特别行政区"
+        }
+      ]
+    },
+  
+    "city": {
+      "count": "455",
+      "enum": [
+        {
+          "id": "156110101",
+          "value": "东城区"
+        },
+        {
+          "id": "156110102",
+          "value": "西城区"
+        },
+        {
+          "id": "156110103",
+          "value": "崇文区"
+        },
+        {
+          "id": "156110104",
+          "value": "宣武区"
+        },
+        {
+          "id": "156110105",
+          "value": "朝阳区"
+        },
+        {
+          "id": "156110106",
+          "value": "丰台区"
+        },
+        {
+          "id": "156110107",
+          "value": "石景山区"
+        },
+        {
+          "id": "156110108",
+          "value": "海淀区"
+        },
+        {
+          "id": "156110109",
+          "value": "门头沟区"
+        },
+        {
+          "id": "156110111",
+          "value": "房山区"
+        },
+        {
+          "id": "156110112",
+          "value": "通州区"
+        },
+        {
+          "id": "156110113",
+          "value": "顺义区"
+        },
+        {
+          "id": "156110114",
+          "value": "昌平区"
+        },
+        {
+          "id": "156110115",
+          "value": "大兴区"
+        },
+        {
+          "id": "156110116",
+          "value": "怀柔区"
+        },
+        {
+          "id": "156110117",
+          "value": "平谷区"
+        },
+        {
+          "id": "156110228",
+          "value": "密云县"
+        },
+        {
+          "id": "156110229",
+          "value": "延庆县"
+        },
+        {
+          "id": "156120101",
+          "value": "和平区"
+        },
+        {
+          "id": "156120102",
+          "value": "河东区"
+        },
+        {
+          "id": "156120103",
+          "value": "河西区"
+        },
+        {
+          "id": "156120104",
+          "value": "南开区"
+        },
+        {
+          "id": "156120105",
+          "value": "河北区"
+        },
+        {
+          "id": "156120106",
+          "value": "红桥区"
+        },
+        {
+          "id": "156120107",
+          "value": "塘沽区"
+        },
+        {
+          "id": "156120108",
+          "value": "汉沽区"
+        },
+        {
+          "id": "156120109",
+          "value": "大港区"
+        },
+        {
+          "id": "156120110",
+          "value": "东丽区"
+        },
+        {
+          "id": "156120111",
+          "value": "西青区"
+        },
+        {
+          "id": "156120112",
+          "value": "津南区"
+        },
+        {
+          "id": "156120113",
+          "value": "北辰区"
+        },
+        {
+          "id": "156120114",
+          "value": "武清区"
+        },
+        {
+          "id": "156120115",
+          "value": "宝坻区"
+        },
+        {
+          "id": "156120221",
+          "value": "宁河县"
+        },
+        {
+          "id": "156120223",
+          "value": "静海县"
+        },
+        {
+          "id": "156120225",
+          "value": "蓟　县"
+        },
+        {
+          "id": "156130100",
+          "value": "石家庄市"
+        },
+        {
+          "id": "156130200",
+          "value": "唐山市"
+        },
+        {
+          "id": "156130300",
+          "value": "秦皇岛市"
+        },
+        {
+          "id": "156130400",
+          "value": "邯郸市"
+        },
+        {
+          "id": "156130500",
+          "value": "邢台市"
+        },
+        {
+          "id": "156130600",
+          "value": "保定市"
+        },
+        {
+          "id": "156130700",
+          "value": "张家口市"
+        },
+        {
+          "id": "156130800",
+          "value": "承德市"
+        },
+        {
+          "id": "156130900",
+          "value": "沧州市"
+        },
+        {
+          "id": "156131000",
+          "value": "廊坊市"
+        },
+        {
+          "id": "156131100",
+          "value": "衡水市"
+        },
+        {
+          "id": "156140100",
+          "value": "太原市"
+        },
+        {
+          "id": "156140200",
+          "value": "大同市"
+        },
+        {
+          "id": "156140300",
+          "value": "阳泉市"
+        },
+        {
+          "id": "156140400",
+          "value": "长治市"
+        },
+        {
+          "id": "156140500",
+          "value": "晋城市"
+        },
+        {
+          "id": "156140600",
+          "value": "朔州市"
+        },
+        {
+          "id": "156140700",
+          "value": "晋中市"
+        },
+        {
+          "id": "156140800",
+          "value": "运城市"
+        },
+        {
+          "id": "156140900",
+          "value": "忻州市"
+        },
+        {
+          "id": "156141000",
+          "value": "临汾市"
+        },
+        {
+          "id": "156141100",
+          "value": "吕梁市"
+        },
+        {
+          "id": "156150100",
+          "value": "呼和浩特市"
+        },
+        {
+          "id": "156150200",
+          "value": "包头市"
+        },
+        {
+          "id": "156150300",
+          "value": "乌海市"
+        },
+        {
+          "id": "156150400",
+          "value": "赤峰市"
+        },
+        {
+          "id": "156150500",
+          "value": "通辽市"
+        },
+        {
+          "id": "156150600",
+          "value": "鄂尔多斯市"
+        },
+        {
+          "id": "156150700",
+          "value": "呼伦贝尔市"
+        },
+        {
+          "id": "156150800",
+          "value": "巴彦淖尔市"
+        },
+        {
+          "id": "156150900",
+          "value": "乌兰察布市"
+        },
+        {
+          "id": "156152200",
+          "value": "兴安盟"
+        },
+        {
+          "id": "156152500",
+          "value": "锡林郭勒盟"
+        },
+        {
+          "id": "156152900",
+          "value": "阿拉善盟"
+        },
+        {
+          "id": "156210100",
+          "value": "沈阳市"
+        },
+        {
+          "id": "156210200",
+          "value": "大连市"
+        },
+        {
+          "id": "156210300",
+          "value": "鞍山市"
+        },
+        {
+          "id": "156210400",
+          "value": "抚顺市"
+        },
+        {
+          "id": "156210500",
+          "value": "本溪市"
+        },
+        {
+          "id": "156210600",
+          "value": "丹东市"
+        },
+        {
+          "id": "156210700",
+          "value": "锦州市"
+        },
+        {
+          "id": "156210800",
+          "value": "营口市"
+        },
+        {
+          "id": "156210900",
+          "value": "阜新市"
+        },
+        {
+          "id": "156211000",
+          "value": "辽阳市"
+        },
+        {
+          "id": "156211100",
+          "value": "盘锦市"
+        },
+        {
+          "id": "156211200",
+          "value": "铁岭市"
+        },
+        {
+          "id": "156211300",
+          "value": "朝阳市"
+        },
+        {
+          "id": "156211400",
+          "value": "葫芦岛市"
+        },
+        {
+          "id": "156220100",
+          "value": "长春市"
+        },
+        {
+          "id": "156220200",
+          "value": "吉林市"
+        },
+        {
+          "id": "156220300",
+          "value": "四平市"
+        },
+        {
+          "id": "156220400",
+          "value": "辽源市"
+        },
+        {
+          "id": "156220500",
+          "value": "通化市"
+        },
+        {
+          "id": "156220600",
+          "value": "白山市"
+        },
+        {
+          "id": "156220700",
+          "value": "松原市"
+        },
+        {
+          "id": "156220800",
+          "value": "白城市"
+        },
+        {
+          "id": "156222400",
+          "value": "延边朝鲜族自治州"
+        },
+        {
+          "id": "156230100",
+          "value": "哈尔滨市"
+        },
+        {
+          "id": "156230200",
+          "value": "齐齐哈尔市"
+        },
+        {
+          "id": "156230300",
+          "value": "鸡西市"
+        },
+        {
+          "id": "156230400",
+          "value": "鹤岗市"
+        },
+        {
+          "id": "156230500",
+          "value": "双鸭山市"
+        },
+        {
+          "id": "156230600",
+          "value": "大庆市"
+        },
+        {
+          "id": "156230700",
+          "value": "伊春市"
+        },
+        {
+          "id": "156230800",
+          "value": "佳木斯市"
+        },
+        {
+          "id": "156230900",
+          "value": "七台河市"
+        },
+        {
+          "id": "156231000",
+          "value": "牡丹江市"
+        },
+        {
+          "id": "156231100",
+          "value": "黑河市"
+        },
+        {
+          "id": "156231200",
+          "value": "绥化市"
+        },
+        {
+          "id": "156232700",
+          "value": "大兴安岭地区"
+        },
+        {
+          "id": "156310101",
+          "value": "黄浦区"
+        },
+        {
+          "id": "156310103",
+          "value": "卢湾区"
+        },
+        {
+          "id": "156310104",
+          "value": "徐汇区"
+        },
+        {
+          "id": "156310105",
+          "value": "长宁区"
+        },
+        {
+          "id": "156310106",
+          "value": "静安区"
+        },
+        {
+          "id": "156310107",
+          "value": "普陀区"
+        },
+        {
+          "id": "156310108",
+          "value": "闸北区"
+        },
+        {
+          "id": "156310109",
+          "value": "虹口区"
+        },
+        {
+          "id": "156310110",
+          "value": "杨浦区"
+        },
+        {
+          "id": "156310112",
+          "value": "闵行区"
+        },
+        {
+          "id": "156310113",
+          "value": "宝山区"
+        },
+        {
+          "id": "156310114",
+          "value": "嘉定区"
+        },
+        {
+          "id": "156310115",
+          "value": "浦东新区"
+        },
+        {
+          "id": "156310116",
+          "value": "金山区"
+        },
+        {
+          "id": "156310117",
+          "value": "松江区"
+        },
+        {
+          "id": "156310118",
+          "value": "青浦区"
+        },
+        {
+          "id": "156310119",
+          "value": "南汇区"
+        },
+        {
+          "id": "156310120",
+          "value": "奉贤区"
+        },
+        {
+          "id": "156310230",
+          "value": "崇明县"
+        },
+        {
+          "id": "156320100",
+          "value": "南京市"
+        },
+        {
+          "id": "156320200",
+          "value": "无锡市"
+        },
+        {
+          "id": "156320300",
+          "value": "徐州市"
+        },
+        {
+          "id": "156320400",
+          "value": "常州市"
+        },
+        {
+          "id": "156320500",
+          "value": "苏州市"
+        },
+        {
+          "id": "156320600",
+          "value": "南通市"
+        },
+        {
+          "id": "156320700",
+          "value": "连云港市"
+        },
+        {
+          "id": "156320800",
+          "value": "淮安市"
+        },
+        {
+          "id": "156320900",
+          "value": "盐城市"
+        },
+        {
+          "id": "156321000",
+          "value": "扬州市"
+        },
+        {
+          "id": "156321100",
+          "value": "镇江市"
+        },
+        {
+          "id": "156321200",
+          "value": "泰州市"
+        },
+        {
+          "id": "156321300",
+          "value": "宿迁市"
+        },
+        {
+          "id": "156330100",
+          "value": "杭州市"
+        },
+        {
+          "id": "156330200",
+          "value": "宁波市"
+        },
+        {
+          "id": "156330300",
+          "value": "温州市"
+        },
+        {
+          "id": "156330400",
+          "value": "嘉兴市"
+        },
+        {
+          "id": "156330500",
+          "value": "湖州市"
+        },
+        {
+          "id": "156330600",
+          "value": "绍兴市"
+        },
+        {
+          "id": "156330700",
+          "value": "金华市"
+        },
+        {
+          "id": "156330800",
+          "value": "衢州市"
+        },
+        {
+          "id": "156330900",
+          "value": "舟山市"
+        },
+        {
+          "id": "156331000",
+          "value": "台州市"
+        },
+        {
+          "id": "156331100",
+          "value": "丽水市"
+        },
+        {
+          "id": "156340100",
+          "value": "合肥市"
+        },
+        {
+          "id": "156340200",
+          "value": "芜湖市"
+        },
+        {
+          "id": "156340300",
+          "value": "蚌埠市"
+        },
+        {
+          "id": "156340400",
+          "value": "淮南市"
+        },
+        {
+          "id": "156340500",
+          "value": "马鞍山市"
+        },
+        {
+          "id": "156340600",
+          "value": "淮北市"
+        },
+        {
+          "id": "156340700",
+          "value": "铜陵市"
+        },
+        {
+          "id": "156340800",
+          "value": "安庆市"
+        },
+        {
+          "id": "156341000",
+          "value": "黄山市"
+        },
+        {
+          "id": "156341100",
+          "value": "滁州市"
+        },
+        {
+          "id": "156341200",
+          "value": "阜阳市"
+        },
+        {
+          "id": "156341300",
+          "value": "宿州市"
+        },
+        {
+          "id": "156341400",
+          "value": "巢湖市"
+        },
+        {
+          "id": "156341500",
+          "value": "六安市"
+        },
+        {
+          "id": "156341600",
+          "value": "亳州市"
+        },
+        {
+          "id": "156341700",
+          "value": "池州市"
+        },
+        {
+          "id": "156341800",
+          "value": "宣城市"
+        },
+        {
+          "id": "156350100",
+          "value": "福州市"
+        },
+        {
+          "id": "156350200",
+          "value": "厦门市"
+        },
+        {
+          "id": "156350300",
+          "value": "莆田市"
+        },
+        {
+          "id": "156350400",
+          "value": "三明市"
+        },
+        {
+          "id": "156350500",
+          "value": "泉州市"
+        },
+        {
+          "id": "156350600",
+          "value": "漳州市"
+        },
+        {
+          "id": "156350700",
+          "value": "南平市"
+        },
+        {
+          "id": "156350800",
+          "value": "龙岩市"
+        },
+        {
+          "id": "156350900",
+          "value": "宁德市"
+        },
+        {
+          "id": "156360100",
+          "value": "南昌市"
+        },
+        {
+          "id": "156360200",
+          "value": "景德镇市"
+        },
+        {
+          "id": "156360300",
+          "value": "萍乡市"
+        },
+        {
+          "id": "156360400",
+          "value": "九江市"
+        },
+        {
+          "id": "156360500",
+          "value": "新余市"
+        },
+        {
+          "id": "156360600",
+          "value": "鹰潭市"
+        },
+        {
+          "id": "156360700",
+          "value": "赣州市"
+        },
+        {
+          "id": "156360800",
+          "value": "吉安市"
+        },
+        {
+          "id": "156360900",
+          "value": "宜春市"
+        },
+        {
+          "id": "156361000",
+          "value": "抚州市"
+        },
+        {
+          "id": "156361100",
+          "value": "上饶市"
+        },
+        {
+          "id": "156370100",
+          "value": "济南市"
+        },
+        {
+          "id": "156370200",
+          "value": "青岛市"
+        },
+        {
+          "id": "156370300",
+          "value": "淄博市"
+        },
+        {
+          "id": "156370400",
+          "value": "枣庄市"
+        },
+        {
+          "id": "156370500",
+          "value": "东营市"
+        },
+        {
+          "id": "156370600",
+          "value": "烟台市"
+        },
+        {
+          "id": "156370700",
+          "value": "潍坊市"
+        },
+        {
+          "id": "156370800",
+          "value": "济宁市"
+        },
+        {
+          "id": "156370900",
+          "value": "泰安市"
+        },
+        {
+          "id": "156371000",
+          "value": "威海市"
+        },
+        {
+          "id": "156371100",
+          "value": "日照市"
+        },
+        {
+          "id": "156371200",
+          "value": "莱芜市"
+        },
+        {
+          "id": "156371300",
+          "value": "临沂市"
+        },
+        {
+          "id": "156371400",
+          "value": "德州市"
+        },
+        {
+          "id": "156371500",
+          "value": "聊城市"
+        },
+        {
+          "id": "156371600",
+          "value": "滨州市"
+        },
+        {
+          "id": "156371700",
+          "value": "菏泽市"
+        },
+        {
+          "id": "156410100",
+          "value": "郑州市"
+        },
+        {
+          "id": "156410200",
+          "value": "开封市"
+        },
+        {
+          "id": "156410300",
+          "value": "洛阳市"
+        },
+        {
+          "id": "156410400",
+          "value": "平顶山市"
+        },
+        {
+          "id": "156410500",
+          "value": "安阳市"
+        },
+        {
+          "id": "156410600",
+          "value": "鹤壁市"
+        },
+        {
+          "id": "156410700",
+          "value": "新乡市"
+        },
+        {
+          "id": "156410800",
+          "value": "焦作市"
+        },
+        {
+          "id": "156410900",
+          "value": "濮阳市"
+        },
+        {
+          "id": "156411000",
+          "value": "许昌市"
+        },
+        {
+          "id": "156411100",
+          "value": "漯河市"
+        },
+        {
+          "id": "156411200",
+          "value": "三门峡市"
+        },
+        {
+          "id": "156411300",
+          "value": "南阳市"
+        },
+        {
+          "id": "156411400",
+          "value": "商丘市"
+        },
+        {
+          "id": "156411500",
+          "value": "信阳市"
+        },
+        {
+          "id": "156411600",
+          "value": "周口市"
+        },
+        {
+          "id": "156411700",
+          "value": "驻马店市"
+        },
+        {
+          "id": "156420100",
+          "value": "武汉市"
+        },
+        {
+          "id": "156420200",
+          "value": "黄石市"
+        },
+        {
+          "id": "156420300",
+          "value": "十堰市"
+        },
+        {
+          "id": "156420500",
+          "value": "宜昌市"
+        },
+        {
+          "id": "156420600",
+          "value": "襄樊市"
+        },
+        {
+          "id": "156420700",
+          "value": "鄂州市"
+        },
+        {
+          "id": "156420800",
+          "value": "荆门市"
+        },
+        {
+          "id": "156420900",
+          "value": "孝感市"
+        },
+        {
+          "id": "156421000",
+          "value": "荆州市"
+        },
+        {
+          "id": "156421100",
+          "value": "黄冈市"
+        },
+        {
+          "id": "156421200",
+          "value": "咸宁市"
+        },
+        {
+          "id": "156421300",
+          "value": "随州市"
+        },
+        {
+          "id": "156422800",
+          "value": "恩施土家族苗族自治州"
+        },
+        {
+          "id": "156429004",
+          "value": "仙桃市"
+        },
+        {
+          "id": "156429005",
+          "value": "潜江市"
+        },
+        {
+          "id": "156429006",
+          "value": "天门市"
+        },
+        {
+          "id": "156429021",
+          "value": "神农架林区"
+        },
+        {
+          "id": "156430100",
+          "value": "长沙市"
+        },
+        {
+          "id": "156430200",
+          "value": "株洲市"
+        },
+        {
+          "id": "156430300",
+          "value": "湘潭市"
+        },
+        {
+          "id": "156430400",
+          "value": "衡阳市"
+        },
+        {
+          "id": "156430500",
+          "value": "邵阳市"
+        },
+        {
+          "id": "156430600",
+          "value": "岳阳市"
+        },
+        {
+          "id": "156430700",
+          "value": "常德市"
+        },
+        {
+          "id": "156430800",
+          "value": "张家界市"
+        },
+        {
+          "id": "156430900",
+          "value": "益阳市"
+        },
+        {
+          "id": "156431000",
+          "value": "郴州市"
+        },
+        {
+          "id": "156431100",
+          "value": "永州市"
+        },
+        {
+          "id": "156431200",
+          "value": "怀化市"
+        },
+        {
+          "id": "156431300",
+          "value": "娄底市"
+        },
+        {
+          "id": "156433100",
+          "value": "湘西土家族苗族自治州"
+        },
+        {
+          "id": "156440100",
+          "value": "广州市"
+        },
+        {
+          "id": "156440200",
+          "value": "韶关市"
+        },
+        {
+          "id": "156440300",
+          "value": "深圳市"
+        },
+        {
+          "id": "156440400",
+          "value": "珠海市"
+        },
+        {
+          "id": "156440500",
+          "value": "汕头市"
+        },
+        {
+          "id": "156440600",
+          "value": "佛山市"
+        },
+        {
+          "id": "156440700",
+          "value": "江门市"
+        },
+        {
+          "id": "156440800",
+          "value": "湛江市"
+        },
+        {
+          "id": "156440900",
+          "value": "茂名市"
+        },
+        {
+          "id": "156441200",
+          "value": "肇庆市"
+        },
+        {
+          "id": "156441300",
+          "value": "惠州市"
+        },
+        {
+          "id": "156441400",
+          "value": "梅州市"
+        },
+        {
+          "id": "156441500",
+          "value": "汕尾市"
+        },
+        {
+          "id": "156441600",
+          "value": "河源市"
+        },
+        {
+          "id": "156441700",
+          "value": "阳江市"
+        },
+        {
+          "id": "156441800",
+          "value": "清远市"
+        },
+        {
+          "id": "156441900",
+          "value": "东莞市"
+        },
+        {
+          "id": "156442000",
+          "value": "中山市"
+        },
+        {
+          "id": "156445100",
+          "value": "潮州市"
+        },
+        {
+          "id": "156445200",
+          "value": "揭阳市"
+        },
+        {
+          "id": "156445300",
+          "value": "云浮市"
+        },
+        {
+          "id": "156450100",
+          "value": "南宁市"
+        },
+        {
+          "id": "156450200",
+          "value": "柳州市"
+        },
+        {
+          "id": "156450300",
+          "value": "桂林市"
+        },
+        {
+          "id": "156450400",
+          "value": "梧州市"
+        },
+        {
+          "id": "156450500",
+          "value": "北海市"
+        },
+        {
+          "id": "156450600",
+          "value": "防城港市"
+        },
+        {
+          "id": "156450700",
+          "value": "钦州市"
+        },
+        {
+          "id": "156450800",
+          "value": "贵港市"
+        },
+        {
+          "id": "156450900",
+          "value": "玉林市"
+        },
+        {
+          "id": "156451000",
+          "value": "百色市"
+        },
+        {
+          "id": "156451100",
+          "value": "贺州市"
+        },
+        {
+          "id": "156451200",
+          "value": "河池市"
+        },
+        {
+          "id": "156451300",
+          "value": "来宾市"
+        },
+        {
+          "id": "156451400",
+          "value": "崇左市"
+        },
+        {
+          "id": "156460100",
+          "value": "海口市"
+        },
+        {
+          "id": "156460200",
+          "value": "三亚市"
+        },
+        {
+          "id": "156469001",
+          "value": "五指山市"
+        },
+        {
+          "id": "156469002",
+          "value": "琼海市"
+        },
+        {
+          "id": "156469003",
+          "value": "儋州市"
+        },
+        {
+          "id": "156469005",
+          "value": "文昌市"
+        },
+        {
+          "id": "156469006",
+          "value": "万宁市"
+        },
+        {
+          "id": "156469007",
+          "value": "东方市"
+        },
+        {
+          "id": "156469025",
+          "value": "定安县"
+        },
+        {
+          "id": "156469026",
+          "value": "屯昌县"
+        },
+        {
+          "id": "156469027",
+          "value": "澄迈县"
+        },
+        {
+          "id": "156469028",
+          "value": "临高县"
+        },
+        {
+          "id": "156469030",
+          "value": "白沙黎族自治县"
+        },
+        {
+          "id": "156469031",
+          "value": "昌江黎族自治县"
+        },
+        {
+          "id": "156469033",
+          "value": "乐东黎族自治县"
+        },
+        {
+          "id": "156469034",
+          "value": "陵水黎族自治县"
+        },
+        {
+          "id": "156469035",
+          "value": "保亭黎族苗族自治县"
+        },
+        {
+          "id": "156469036",
+          "value": "琼中黎族苗族自治县"
+        },
+        {
+          "id": "156469037",
+          "value": "西沙群岛"
+        },
+        {
+          "id": "156469038",
+          "value": "南沙群岛"
+        },
+        {
+          "id": "156469039",
+          "value": "中沙群岛的岛礁及其海域"
+        },
+        {
+          "id": "156500101",
+          "value": "万州区"
+        },
+        {
+          "id": "156500102",
+          "value": "涪陵区"
+        },
+        {
+          "id": "156500103",
+          "value": "渝中区"
+        },
+        {
+          "id": "156500104",
+          "value": "大渡口区"
+        },
+        {
+          "id": "156500105",
+          "value": "江北区"
+        },
+        {
+          "id": "156500106",
+          "value": "沙坪坝区"
+        },
+        {
+          "id": "156500107",
+          "value": "九龙坡区"
+        },
+        {
+          "id": "156500108",
+          "value": "南岸区"
+        },
+        {
+          "id": "156500109",
+          "value": "北碚区"
+        },
+        {
+          "id": "156500110",
+          "value": "万盛区"
+        },
+        {
+          "id": "156500111",
+          "value": "双桥区"
+        },
+        {
+          "id": "156500112",
+          "value": "渝北区"
+        },
+        {
+          "id": "156500113",
+          "value": "巴南区"
+        },
+        {
+          "id": "156500114",
+          "value": "黔江区"
+        },
+        {
+          "id": "156500115",
+          "value": "长寿区"
+        },
+        {
+          "id": "156500222",
+          "value": "綦江县"
+        },
+        {
+          "id": "156500223",
+          "value": "潼南县"
+        },
+        {
+          "id": "156500224",
+          "value": "铜梁县"
+        },
+        {
+          "id": "156500225",
+          "value": "大足县"
+        },
+        {
+          "id": "156500226",
+          "value": "荣昌县"
+        },
+        {
+          "id": "156500227",
+          "value": "璧山县"
+        },
+        {
+          "id": "156500228",
+          "value": "梁平县"
+        },
+        {
+          "id": "156500229",
+          "value": "城口县"
+        },
+        {
+          "id": "156500230",
+          "value": "丰都县"
+        },
+        {
+          "id": "156500231",
+          "value": "垫江县"
+        },
+        {
+          "id": "156500232",
+          "value": "武隆县"
+        },
+        {
+          "id": "156500233",
+          "value": "忠　县"
+        },
+        {
+          "id": "156500234",
+          "value": "开　县"
+        },
+        {
+          "id": "156500235",
+          "value": "云阳县"
+        },
+        {
+          "id": "156500236",
+          "value": "奉节县"
+        },
+        {
+          "id": "156500237",
+          "value": "巫山县"
+        },
+        {
+          "id": "156500238",
+          "value": "巫溪县"
+        },
+        {
+          "id": "156500240",
+          "value": "石柱土家族自治县"
+        },
+        {
+          "id": "156500241",
+          "value": "秀山土家族苗族自治县"
+        },
+        {
+          "id": "156500242",
+          "value": "酉阳土家族苗族自治县"
+        },
+        {
+          "id": "156500243",
+          "value": "彭水苗族土家族自治县"
+        },
+        {
+          "id": "156500381",
+          "value": "江津市"
+        },
+        {
+          "id": "156500382",
+          "value": "合川市"
+        },
+        {
+          "id": "156500383",
+          "value": "永川市"
+        },
+        {
+          "id": "156500384",
+          "value": "南川市"
+        },
+        {
+          "id": "156510100",
+          "value": "成都市"
+        },
+        {
+          "id": "156510300",
+          "value": "自贡市"
+        },
+        {
+          "id": "156510400",
+          "value": "攀枝花市"
+        },
+        {
+          "id": "156510500",
+          "value": "泸州市"
+        },
+        {
+          "id": "156510600",
+          "value": "德阳市"
+        },
+        {
+          "id": "156510700",
+          "value": "绵阳市"
+        },
+        {
+          "id": "156510800",
+          "value": "广元市"
+        },
+        {
+          "id": "156510900",
+          "value": "遂宁市"
+        },
+        {
+          "id": "156511000",
+          "value": "内江市"
+        },
+        {
+          "id": "156511100",
+          "value": "乐山市"
+        },
+        {
+          "id": "156511300",
+          "value": "南充市"
+        },
+        {
+          "id": "156511400",
+          "value": "眉山市"
+        },
+        {
+          "id": "156511500",
+          "value": "宜宾市"
+        },
+        {
+          "id": "156511600",
+          "value": "广安市"
+        },
+        {
+          "id": "156511700",
+          "value": "达州市"
+        },
+        {
+          "id": "156511800",
+          "value": "雅安市"
+        },
+        {
+          "id": "156511900",
+          "value": "巴中市"
+        },
+        {
+          "id": "156512000",
+          "value": "资阳市"
+        },
+        {
+          "id": "156513200",
+          "value": "阿坝藏族羌族自治州"
+        },
+        {
+          "id": "156513300",
+          "value": "甘孜藏族自治州"
+        },
+        {
+          "id": "156513400",
+          "value": "凉山彝族自治州"
+        },
+        {
+          "id": "156520100",
+          "value": "贵阳市"
+        },
+        {
+          "id": "156520200",
+          "value": "六盘水市"
+        },
+        {
+          "id": "156520300",
+          "value": "遵义市"
+        },
+        {
+          "id": "156520400",
+          "value": "安顺市"
+        },
+        {
+          "id": "156522200",
+          "value": "铜仁地区"
+        },
+        {
+          "id": "156522300",
+          "value": "黔西南布依族苗族自治州"
+        },
+        {
+          "id": "156522400",
+          "value": "毕节地区"
+        },
+        {
+          "id": "156522600",
+          "value": "黔东南苗族侗族自治州"
+        },
+        {
+          "id": "156522700",
+          "value": "黔南布依族苗族自治州"
+        },
+        {
+          "id": "156530100",
+          "value": "昆明市"
+        },
+        {
+          "id": "156530300",
+          "value": "曲靖市"
+        },
+        {
+          "id": "156530400",
+          "value": "玉溪市"
+        },
+        {
+          "id": "156530500",
+          "value": "保山市"
+        },
+        {
+          "id": "156530600",
+          "value": "昭通市"
+        },
+        {
+          "id": "156530700",
+          "value": "丽江市"
+        },
+        {
+          "id": "156530800",
+          "value": "思茅市"
+        },
+        {
+          "id": "156530900",
+          "value": "临沧市"
+        },
+        {
+          "id": "156532300",
+          "value": "楚雄彝族自治州"
+        },
+        {
+          "id": "156532500",
+          "value": "红河哈尼族彝族自治州"
+        },
+        {
+          "id": "156532600",
+          "value": "文山壮族苗族自治州"
+        },
+        {
+          "id": "156532800",
+          "value": "西双版纳傣族自治州"
+        },
+        {
+          "id": "156532900",
+          "value": "大理白族自治州"
+        },
+        {
+          "id": "156533100",
+          "value": "德宏傣族景颇族自治州"
+        },
+        {
+          "id": "156533300",
+          "value": "怒江傈僳族自治州"
+        },
+        {
+          "id": "156533400",
+          "value": "迪庆藏族自治州"
+        },
+        {
+          "id": "156540100",
+          "value": "拉萨市"
+        },
+        {
+          "id": "156542100",
+          "value": "昌都地区"
+        },
+        {
+          "id": "156542200",
+          "value": "山南地区"
+        },
+        {
+          "id": "156542300",
+          "value": "日喀则地区"
+        },
+        {
+          "id": "156542400",
+          "value": "那曲地区"
+        },
+        {
+          "id": "156542500",
+          "value": "阿里地区"
+        },
+        {
+          "id": "156542600",
+          "value": "林芝地区"
+        },
+        {
+          "id": "156610100",
+          "value": "西安市"
+        },
+        {
+          "id": "156610200",
+          "value": "铜川市"
+        },
+        {
+          "id": "156610300",
+          "value": "宝鸡市"
+        },
+        {
+          "id": "156610400",
+          "value": "咸阳市"
+        },
+        {
+          "id": "156610500",
+          "value": "渭南市"
+        },
+        {
+          "id": "156610600",
+          "value": "延安市"
+        },
+        {
+          "id": "156610700",
+          "value": "汉中市"
+        },
+        {
+          "id": "156610800",
+          "value": "榆林市"
+        },
+        {
+          "id": "156610900",
+          "value": "安康市"
+        },
+        {
+          "id": "156611000",
+          "value": "商洛市"
+        },
+        {
+          "id": "156620100",
+          "value": "兰州市"
+        },
+        {
+          "id": "156620200",
+          "value": "嘉峪关市"
+        },
+        {
+          "id": "156620300",
+          "value": "金昌市"
+        },
+        {
+          "id": "156620400",
+          "value": "白银市"
+        },
+        {
+          "id": "156620500",
+          "value": "天水市"
+        },
+        {
+          "id": "156620600",
+          "value": "武威市"
+        },
+        {
+          "id": "156620700",
+          "value": "张掖市"
+        },
+        {
+          "id": "156620800",
+          "value": "平凉市"
+        },
+        {
+          "id": "156620900",
+          "value": "酒泉市"
+        },
+        {
+          "id": "156621000",
+          "value": "庆阳市"
+        },
+        {
+          "id": "156621100",
+          "value": "定西市"
+        },
+        {
+          "id": "156621200",
+          "value": "陇南市"
+        },
+        {
+          "id": "156622900",
+          "value": "临夏回族自治州"
+        },
+        {
+          "id": "156623000",
+          "value": "甘南藏族自治州"
+        },
+        {
+          "id": "156630100",
+          "value": "西宁市"
+        },
+        {
+          "id": "156632100",
+          "value": "海东地区"
+        },
+        {
+          "id": "156632200",
+          "value": "海北藏族自治州"
+        },
+        {
+          "id": "156632300",
+          "value": "黄南藏族自治州"
+        },
+        {
+          "id": "156632500",
+          "value": "海南藏族自治州"
+        },
+        {
+          "id": "156632600",
+          "value": "果洛藏族自治州"
+        },
+        {
+          "id": "156632700",
+          "value": "玉树藏族自治州"
+        },
+        {
+          "id": "156632800",
+          "value": "海西蒙古族藏族自治州"
+        },
+        {
+          "id": "156640100",
+          "value": "银川市"
+        },
+        {
+          "id": "156640200",
+          "value": "石嘴山市"
+        },
+        {
+          "id": "156640300",
+          "value": "吴忠市"
+        },
+        {
+          "id": "156640400",
+          "value": "固原市"
+        },
+        {
+          "id": "156640500",
+          "value": "中卫市"
+        },
+        {
+          "id": "156650100",
+          "value": "乌鲁木齐市"
+        },
+        {
+          "id": "156650200",
+          "value": "克拉玛依市"
+        },
+        {
+          "id": "156652100",
+          "value": "吐鲁番地区"
+        },
+        {
+          "id": "156652200",
+          "value": "哈密地区"
+        },
+        {
+          "id": "156652300",
+          "value": "昌吉回族自治州"
+        },
+        {
+          "id": "156652700",
+          "value": "博尔塔拉蒙古自治州"
+        },
+        {
+          "id": "156652800",
+          "value": "巴音郭楞蒙古自治州"
+        },
+        {
+          "id": "156652900",
+          "value": "阿克苏地区"
+        },
+        {
+          "id": "156653000",
+          "value": "克孜勒苏柯尔克孜自治州"
+        },
+        {
+          "id": "156653100",
+          "value": "喀什地区"
+        },
+        {
+          "id": "156653200",
+          "value": "和田地区"
+        },
+        {
+          "id": "156654000",
+          "value": "伊犁哈萨克自治州"
+        },
+        {
+          "id": "156654200",
+          "value": "塔城地区"
+        },
+        {
+          "id": "156654300",
+          "value": "阿勒泰地区"
+        },
+        {
+          "id": "156659001",
+          "value": "石河子市"
+        },
+        {
+          "id": "156659002",
+          "value": "阿拉尔市"
+        },
+        {
+          "id": "156659003",
+          "value": "图木舒克市"
+        },
+        {
+          "id": "156659004",
+          "value": "五家渠市"
+        }
+      ]
+    },
+  
+      "classify": {
+        "count": "55",
+        "enum": [
+        {
+            "children": [{
+              "label": "财务公司",
+              "value": "020201"
+            }, {
+              "label": "投资、咨询公司",
+              "value": "020202"
+            }, {
+              "label": "房地产",
+              "value": "020203"
+            }, {
+              "label": "工业",
+              "value": "020204"
+            }, {
+              "label": "农业",
+              "value": "020205"
+            }, {
+              "label": "商业贸易",
+              "value": "020206"
+            }, {
+              "label": "多元化集团公司",
+              "value": "020207"
+            }, {
+              "label": "其他",
+              "value": "020208"
+            }],
+            "label": "一般法人",
+            "value": "0202"
+          }
+        ]
+      },
+  
+    "ledgerrefacctype": {
+      "count": "9",
+      "enum": [
+        {
+          "id": "1",
+          "value": "沪市A股账户"
+        },
+        {
+          "id": "2",
+          "value": "沪市B股账户"
+        },
+        {
+          "id": "3",
+          "value": "沪市基金账户"
+        },
+        {
+          "id": "4",
+          "value": "沪市其它账户"
+        },
+        {
+          "id": "5",
+          "value": "深市A股账户"
+        },
+        {
+          "id": "6",
+          "value": "深市B股账户"
+        },
+        {
+          "id": "7",
+          "value": "深市基金账户"
+        },
+        {
+          "id": "8",
+          "value": "深市其它账户"
+        },
+        {
+          "id": "9",
+          "value": "其它"
+        }
+      ]
+    },
+  
+    "currency": {
+      "count": "10",
+      "enum": [
+        {
+          "id": "CNY",
+          "value": "中国人民币元"
+        },
+        {
+          "id": "USD",
+          "value": "美元"
+        },
+        {
+          "id": "GBP",
+          "value": "英镑"
+        },
+        {
+          "id": "HKD",
+          "value": "港币"
+        },
+        {
+          "id": "EUR",
+          "value": "欧元"
+        },
+        {
+          "id": "JPY",
+          "value": "日本日圆"
+        },
+        {
+          "id": "CHF",
+          "value": "瑞士法郎"
+        },
+        {
+          "id": "CAD",
+          "value": "加拿大元"
+        },
+        {
+          "id": "AUD",
+          "value": "澳大利亚元（澳元）"
+        },
+        {
+          "id": "OTH",
+          "value": "其它"
+        }
+      ]
+    },
+  
+    "assetmgrtype": {
+      "count": "2",
+      "enum": [
+        {
+          "id": "1",
+          "value": "期货类"
+        },
+        {
+          "id": "2",
+          "value": "综合类"
+        }
+      ]
+    },
+  
+    "processtype": {
+      "count": "10",
+      "enum": [
+        {
+          "id": "1",
+          "value": "申请交易编码"
+        },
+        {
+          "id": "2",
+          "value": "撤销交易编码"
+        },
+        {
+          "id": "3",
+          "value": "修改身份信息"
+        },
+        {
+          "id": "4",
+          "value": "修改一般信息"
+        },
+        {
+          "id": "5",
+          "value": "交易所开户报备"
+        },
+        {
+          "id": "6",
+          "value": "交易所销户报备"
+        },
+        {
+          "id": "7",
+          "value": "补报规范资料"
+        },
+        {
+          "id": "8",
+          "value": "账户休眠"
+        },
+        {
+          "id": "9",
+          "value": "激活休眠账户"
+        },
+        {
+          "id": "10",
+          "value": "解除开仓限制"
+        }
+      ]
+    },
+  
+    "nationality": {
+      "count": "239",
+      "enum": [
+        {
+          "id": "CHN",
+          "value": "中国"
+        },
+        {
+          "id": "AFG",
+          "value": "阿富汗"
+        },
+        {
+          "id": "ALB",
+          "value": "阿尔巴尼亚"
+        },
+        {
+          "id": "DZA",
+          "value": "阿尔及利亚"
+        },
+        {
+          "id": "ASM",
+          "value": "美属萨摩亚"
+        },
+        {
+          "id": "AND",
+          "value": "安道尔"
+        },
+        {
+          "id": "AGO",
+          "value": "安哥拉"
+        },
+        {
+          "id": "AIA",
+          "value": "安圭拉"
+        },
+        {
+          "id": "ATA",
+          "value": "南极洲"
+        },
+        {
+          "id": "ATG",
+          "value": "安提瓜和巴布达"
+        },
+        {
+          "id": "ARG",
+          "value": "阿根廷"
+        },
+        {
+          "id": "ARM",
+          "value": "亚美尼亚"
+        },
+        {
+          "id": "ABW",
+          "value": "阿鲁巴"
+        },
+        {
+          "id": "AUS",
+          "value": "澳大利亚"
+        },
+        {
+          "id": "AUT",
+          "value": "奥地利"
+        },
+        {
+          "id": "AZE",
+          "value": "阿塞拜疆"
+        },
+        {
+          "id": "BHS",
+          "value": "巴哈马"
+        },
+        {
+          "id": "BHR",
+          "value": "巴林"
+        },
+        {
+          "id": "BGD",
+          "value": "孟加拉国"
+        },
+        {
+          "id": "BRB",
+          "value": "巴巴多斯"
+        },
+        {
+          "id": "BLR",
+          "value": "白俄罗斯"
+        },
+        {
+          "id": "BEL",
+          "value": "比利时"
+        },
+        {
+          "id": "BLZ",
+          "value": "伯利兹"
+        },
+        {
+          "id": "BEN",
+          "value": "贝宁"
+        },
+        {
+          "id": "BMU",
+          "value": "百慕大"
+        },
+        {
+          "id": "BTN",
+          "value": "不丹"
+        },
+        {
+          "id": "BOL",
+          "value": "玻利维亚"
+        },
+        {
+          "id": "BIH",
+          "value": "波黑"
+        },
+        {
+          "id": "BWA",
+          "value": "博茨瓦纳"
+        },
+        {
+          "id": "BVT",
+          "value": "布维岛"
+        },
+        {
+          "id": "BRA",
+          "value": "巴西"
+        },
+        {
+          "id": "IOT",
+          "value": "英属印度洋领土"
+        },
+        {
+          "id": "BRN",
+          "value": "文莱"
+        },
+        {
+          "id": "BGR",
+          "value": "保加利亚"
+        },
+        {
+          "id": "BFA",
+          "value": "布基纳法索"
+        },
+        {
+          "id": "BDI",
+          "value": "布隆迪"
+        },
+        {
+          "id": "KHM",
+          "value": "柬埔寨"
+        },
+        {
+          "id": "CMR",
+          "value": "喀麦隆"
+        },
+        {
+          "id": "CAN",
+          "value": "加拿大"
+        },
+        {
+          "id": "CPV",
+          "value": "佛得角"
+        },
+        {
+          "id": "CYM",
+          "value": "开曼群岛"
+        },
+        {
+          "id": "CAF",
+          "value": "中非"
+        },
+        {
+          "id": "TCD",
+          "value": "乍得"
+        },
+        {
+          "id": "CHL",
+          "value": "智利"
+        },
+        
+        {
+          "id": "HKG",
+          "value": "香港"
+        },
+        {
+          "id": "MAC",
+          "value": "澳门"
+        },
+        {
+          "id": "CTN",
+          "value": "台湾"
+        },
+        {
+          "id": "CSR",
+          "value": "圣诞岛"
+        },
+        {
+          "id": "CCK",
+          "value": "科科斯(基林)群岛"
+        },
+        {
+          "id": "COL",
+          "value": "哥伦比亚"
+        },
+        {
+          "id": "COM",
+          "value": "科摩罗"
+        },
+        {
+          "id": "COG",
+          "value": "刚果（布）"
+        },
+        {
+          "id": "COD",
+          "value": "刚果（金）"
+        },
+        {
+          "id": "COK",
+          "value": "库克群岛"
+        },
+        {
+          "id": "CRI",
+          "value": "哥斯达黎加"
+        },
+        {
+          "id": "CIV",
+          "value": "科特迪瓦"
+        },
+        {
+          "id": "HRV",
+          "value": "克罗地亚"
+        },
+        {
+          "id": "CUB",
+          "value": "古巴"
+        },
+        {
+          "id": "CYP",
+          "value": "塞浦路斯"
+        },
+        {
+          "id": "CZE",
+          "value": "捷克"
+        },
+        {
+          "id": "DNK",
+          "value": "丹麦"
+        },
+        {
+          "id": "DJI",
+          "value": "吉布提"
+        },
+        {
+          "id": "DMA",
+          "value": "多米尼克"
+        },
+        {
+          "id": "DOM",
+          "value": "多米尼加共和国"
+        },
+        {
+          "id": "TMP",
+          "value": "东帝汶"
+        },
+        {
+          "id": "ECU",
+          "value": "厄瓜多尔"
+        },
+        {
+          "id": "EGY",
+          "value": "埃及"
+        },
+        {
+          "id": "SLV",
+          "value": "萨尔瓦多"
+        },
+        {
+          "id": "GNQ",
+          "value": "赤道几内亚"
+        },
+        {
+          "id": "ERI",
+          "value": "厄立特里亚"
+        },
+        {
+          "id": "EST",
+          "value": "爱沙尼亚"
+        },
+        {
+          "id": "ETJ",
+          "value": "埃塞俄比亚"
+        },
+        {
+          "id": "FLK",
+          "value": "福克兰群岛(马尔维纳斯)"
+        },
+        {
+          "id": "FRO",
+          "value": "法罗群岛"
+        },
+        {
+          "id": "FJI",
+          "value": "斐济"
+        },
+        {
+          "id": "FIN",
+          "value": "芬兰"
+        },
+        {
+          "id": "FRA",
+          "value": "法国"
+        },
+        {
+          "id": "GUF",
+          "value": "法属圭亚那"
+        },
+        {
+          "id": "PYF",
+          "value": "法属波利尼西亚"
+        },
+        {
+          "id": "ATF",
+          "value": "法属南部领土"
+        },
+        {
+          "id": "GAB",
+          "value": "加蓬"
+        },
+        {
+          "id": "GMB",
+          "value": "冈比亚Gambia"
+        },
+        {
+          "id": "GEO",
+          "value": "格鲁吉亚"
+        },
+        {
+          "id": "DEU",
+          "value": "德国"
+        },
+        {
+          "id": "GHA",
+          "value": "加纳"
+        },
+        {
+          "id": "GIB",
+          "value": "直布罗陀"
+        },
+        {
+          "id": "GRC",
+          "value": "希腊"
+        },
+        {
+          "id": "GRL",
+          "value": "格陵兰"
+        },
+        {
+          "id": "GRD",
+          "value": "格林纳达"
+        },
+        {
+          "id": "GLP",
+          "value": "瓜德罗普"
+        },
+        {
+          "id": "GUM",
+          "value": "关岛"
+        },
+        {
+          "id": "GTM",
+          "value": "危地马拉"
+        },
+        {
+          "id": "GIN",
+          "value": "几内亚"
+        },
+        {
+          "id": "GNB",
+          "value": "几内亚比绍"
+        },
+        {
+          "id": "GUY",
+          "value": "圭亚那"
+        },
+        {
+          "id": "HTI",
+          "value": "海地"
+        },
+        {
+          "id": "HMD",
+          "value": "赫德岛和麦克唐纳岛"
+        },
+        {
+          "id": "HND",
+          "value": "洪都拉斯"
+        },
+        {
+          "id": "HUN",
+          "value": "匈牙利"
+        },
+        {
+          "id": "ISL",
+          "value": "冰岛"
+        },
+        {
+          "id": "IND",
+          "value": "印度"
+        },
+        {
+          "id": "IDN",
+          "value": "印度尼西亚"
+        },
+        {
+          "id": "IRN",
+          "value": "伊朗"
+        },
+        {
+          "id": "IRQ",
+          "value": "伊拉克"
+        },
+        {
+          "id": "IRL",
+          "value": "爱尔兰"
+        },
+        {
+          "id": "ISR",
+          "value": "以色列"
+        },
+        {
+          "id": "ITA",
+          "value": "意大利"
+        },
+        {
+          "id": "JAM",
+          "value": "牙买加"
+        },
+        {
+          "id": "JPN",
+          "value": "日本"
+        },
+        {
+          "id": "JOR",
+          "value": "约旦"
+        },
+        {
+          "id": "KAZ",
+          "value": "哈萨克斯坦"
+        },
+        {
+          "id": "KEN",
+          "value": "肯尼亚"
+        },
+        {
+          "id": "KIR",
+          "value": "基里巴斯"
+        },
+        {
+          "id": "PRK",
+          "value": "朝鲜"
+        },
+        {
+          "id": "KOR",
+          "value": "韩国"
+        },
+        {
+          "id": "KWT",
+          "value": "科威特"
+        },
+        {
+          "id": "KGZ",
+          "value": "吉尔吉斯斯坦"
+        },
+        {
+          "id": "LAO",
+          "value": "老挝"
+        },
+        {
+          "id": "LVA",
+          "value": "拉脱维亚"
+        },
+        {
+          "id": "LBN",
+          "value": "黎巴嫩"
+        },
+        {
+          "id": "LSO",
+          "value": "莱索托"
+        },
+        {
+          "id": "LBR",
+          "value": "利比里亚"
+        },
+        {
+          "id": "LBY",
+          "value": "利比亚"
+        },
+        {
+          "id": "LIE",
+          "value": "列支敦士登"
+        },
+        {
+          "id": "LTU",
+          "value": "立陶宛"
+        },
+        {
+          "id": "LUX",
+          "value": "卢森堡"
+        },
+        {
+          "id": "MKD",
+          "value": "前南马其顿"
+        },
+        {
+          "id": "MDG",
+          "value": "马达加斯加"
+        },
+        {
+          "id": "MWI",
+          "value": "马拉维"
+        },
+        {
+          "id": "MYS",
+          "value": "马来西亚"
+        },
+        {
+          "id": "MDV",
+          "value": "马尔代夫"
+        },
+        {
+          "id": "MLI",
+          "value": "马里"
+        },
+        {
+          "id": "MLT",
+          "value": "马耳他"
+        },
+        {
+          "id": "MHL",
+          "value": "马绍尔群岛"
+        },
+        {
+          "id": "MTQ",
+          "value": "马提尼克"
+        },
+        {
+          "id": "MRT",
+          "value": "毛里塔尼亚"
+        },
+        {
+          "id": "MUS",
+          "value": "毛里求斯"
+        },
+        {
+          "id": "MYT",
+          "value": "马约特"
+        },
+        {
+          "id": "MEX",
+          "value": "墨西哥"
+        },
+        {
+          "id": "FSM",
+          "value": "密克罗尼西亚联邦"
+        },
+        {
+          "id": "MDA",
+          "value": "摩尔多瓦"
+        },
+        {
+          "id": "MCO",
+          "value": "摩纳哥"
+        },
+        {
+          "id": "MNG",
+          "value": "蒙古"
+        },
+        {
+          "id": "MSR",
+          "value": "蒙特塞拉特"
+        },
+        {
+          "id": "MAR",
+          "value": "摩洛哥"
+        },
+        {
+          "id": "MOZ",
+          "value": "莫桑比克"
+        },
+        {
+          "id": "MMR",
+          "value": "缅甸"
+        },
+        {
+          "id": "NAM",
+          "value": "纳米比亚"
+        },
+        {
+          "id": "NRU",
+          "value": "瑙鲁"
+        },
+        {
+          "id": "NPL",
+          "value": "尼泊尔"
+        },
+        {
+          "id": "NLD",
+          "value": "荷兰"
+        },
+        {
+          "id": "ANT",
+          "value": "荷属安的列斯"
+        },
+        {
+          "id": "NCL",
+          "value": "新喀里多尼亚"
+        },
+        {
+          "id": "NZL",
+          "value": "新西兰"
+        },
+        {
+          "id": "NIC",
+          "value": "尼加拉瓜"
+        },
+        {
+          "id": "NER",
+          "value": "尼日尔"
+        },
+        {
+          "id": "NGA",
+          "value": "尼日利亚"
+        },
+        {
+          "id": "NIU",
+          "value": "纽埃"
+        },
+        {
+          "id": "NFK",
+          "value": "诺福克岛"
+        },
+        {
+          "id": "MNP",
+          "value": "北马里亚纳"
+        },
+        {
+          "id": "NOR",
+          "value": "挪威"
+        },
+        {
+          "id": "OMN",
+          "value": "阿曼"
+        },
+        {
+          "id": "PAK",
+          "value": "巴基斯坦"
+        },
+        {
+          "id": "PLW",
+          "value": "帕劳"
+        },
+        {
+          "id": "PSE",
+          "value": "巴勒斯坦"
+        },
+        {
+          "id": "PAN",
+          "value": "巴拿马"
+        },
+        {
+          "id": "PNG",
+          "value": "巴布亚新几内亚"
+        },
+        {
+          "id": "PRY",
+          "value": "巴拉圭"
+        },
+        {
+          "id": "PER",
+          "value": "秘鲁"
+        },
+        {
+          "id": "PHL",
+          "value": "菲律宾"
+        },
+        {
+          "id": "PCN",
+          "value": "皮特凯恩群岛"
+        },
+        {
+          "id": "POL",
+          "value": "波兰"
+        },
+        {
+          "id": "PRT",
+          "value": "葡萄牙"
+        },
+        {
+          "id": "PRI",
+          "value": "波多黎各"
+        },
+        {
+          "id": "QAT",
+          "value": "卡塔尔"
+        },
+        {
+          "id": "REU",
+          "value": "留尼汪"
+        },
+        {
+          "id": "ROM",
+          "value": "罗马尼亚"
+        },
+        {
+          "id": "RUS",
+          "value": "俄罗斯联邦"
+        },
+        {
+          "id": "RWA",
+          "value": "卢旺达"
+        },
+        {
+          "id": "SHN",
+          "value": "圣赫勒拿"
+        },
+        {
+          "id": "KNA",
+          "value": "圣基茨和尼维斯"
+        },
+        {
+          "id": "LCA",
+          "value": "圣卢西亚"
+        },
+        {
+          "id": "SPM",
+          "value": "圣皮埃尔和密克隆"
+        },
+        {
+          "id": "VCT",
+          "value": "圣文森特和格林纳丁斯"
+        },
+        {
+          "id": "WSM",
+          "value": "萨摩亚"
+        },
+        {
+          "id": "SMR",
+          "value": "圣马力诺"
+        },
+        {
+          "id": "STP",
+          "value": "圣多美和普林西比"
+        },
+        {
+          "id": "SAU",
+          "value": "沙特阿拉伯"
+        },
+        {
+          "id": "SEN",
+          "value": "塞内加尔"
+        },
+        {
+          "id": "SYC",
+          "value": "塞舌尔"
+        },
+        {
+          "id": "SLE",
+          "value": "塞拉利昂"
+        },
+        {
+          "id": "SGP",
+          "value": "新加坡"
+        },
+        {
+          "id": "SVK",
+          "value": "斯洛伐克"
+        },
+        {
+          "id": "SVN",
+          "value": "斯洛文尼亚"
+        },
+        {
+          "id": "SLB",
+          "value": "所罗门群岛"
+        },
+        {
+          "id": "SOM",
+          "value": "索马里"
+        },
+        {
+          "id": "ZAF",
+          "value": "南非"
+        },
+        {
+          "id": "SGS",
+          "value": "南乔治亚岛和南桑德韦奇岛"
+        },
+        {
+          "id": "ESP",
+          "value": "西班牙"
+        },
+        {
+          "id": "LKA",
+          "value": "斯里兰卡"
+        },
+        {
+          "id": "SDN",
+          "value": "苏丹"
+        },
+        {
+          "id": "SUR",
+          "value": "苏里南"
+        },
+        {
+          "id": "SJM",
+          "value": "斯瓦尔巴群岛"
+        },
+        {
+          "id": "SWZ",
+          "value": "斯威士兰"
+        },
+        {
+          "id": "SWE",
+          "value": "瑞典"
+        },
+        {
+          "id": "CHE",
+          "value": "瑞士"
+        },
+        {
+          "id": "SYR",
+          "value": "叙利亚"
+        },
+        {
+          "id": "TJK",
+          "value": "塔吉克斯坦"
+        },
+        {
+          "id": "TZA",
+          "value": "坦桑尼亚"
+        },
+        {
+          "id": "THA",
+          "value": "泰国"
+        },
+        {
+          "id": "TGO",
+          "value": "多哥"
+        },
+        {
+          "id": "TKL",
+          "value": "托克劳"
+        },
+        {
+          "id": "TON",
+          "value": "汤加"
+        },
+        {
+          "id": "TTO",
+          "value": "特立尼达和多巴哥"
+        },
+        {
+          "id": "TUN",
+          "value": "突尼斯"
+        },
+        {
+          "id": "TUR",
+          "value": "土耳其"
+        },
+        {
+          "id": "TKM",
+          "value": "土库曼斯坦"
+        },
+        {
+          "id": "TCA",
+          "value": "特克斯科斯群岛"
+        },
+        {
+          "id": "TUV",
+          "value": "图瓦卢"
+        },
+        {
+          "id": "UGA",
+          "value": "乌干达"
+        },
+        {
+          "id": "UKR",
+          "value": "乌克兰"
+        },
+        {
+          "id": "ARE",
+          "value": "阿联酋"
+        },
+        {
+          "id": "GBR",
+          "value": "英国"
+        },
+        {
+          "id": "USA",
+          "value": "美国"
+        },
+        {
+          "id": "UMI",
+          "value": "美国本土外小岛屿"
+        },
+        {
+          "id": "URY",
+          "value": "乌拉圭"
+        },
+        {
+          "id": "UZB",
+          "value": "乌兹别克斯坦"
+        },
+        {
+          "id": "VUT",
+          "value": "瓦努阿图"
+        },
+        {
+          "id": "VAT",
+          "value": "梵蒂冈"
+        },
+        {
+          "id": "VEN",
+          "value": "委内瑞拉"
+        },
+        {
+          "id": "VNM",
+          "value": "越南"
+        },
+        {
+          "id": "VGB",
+          "value": "英属维尔京群岛"
+        },
+        {
+          "id": "VIR",
+          "value": "美属维尔京群岛"
+        },
+        {
+          "id": "WLF",
+          "value": "瓦利斯和富图纳"
+        },
+        {
+          "id": "ESH",
+          "value": "西撒哈拉"
+        },
+        {
+          "id": "YEM",
+          "value": "也门"
+        },
+        {
+          "id": "SCG",
+          "value": "南斯拉夫"
+        },
+        {
+          "id": "ZMB",
+          "value": "赞比亚"
+        },
+        {
+          "id": "ZWE",
+          "value": "津巴布韦"
+        }
+      ]
+    },
+    "phonecode": {
+      "count": "17",
+      "enum": [
+          {"value":"中国 +86", "id":"86"},
+          {"value":"美国 +1", "id":"1"},
+          {"value":"日本 +81", "id":"81"},
+          {"value":"中国香港 +852", "id":"852"},
+          {"value":"中国澳门 +853", "id":"853"},
+          {"value":"中国台湾 +886", "id":"886"},
+          {"value":"马来西亚 +60", "id":"60"},
+          {"value":"澳大利亚 +61", "id":"61"},
+          {"value":"英国 +44", "id":"44"},
+          {"value":"新加坡 +65", "id":"65"},
+          {"value":"德国 +49", "id":"49"},
+          {"value":"俄罗斯 +7", "id":"7"},
+          {"value":"埃及 +20", "id":"20"},
+          {"value":"南非 +27", "id":"27"},
+          {"value":"希腊 +30", "id":"30"},
+          {"value":"荷兰 +31", "id":"31"},
+          {"value":"比利时 +32", "id":"32"},
+          {"value":"法国 +33", "id":"33"},
+          {"value":"西班牙 +34", "id":"34"},
+          {"value":"匈牙利 +36", "id":"36"},
+          {"value":"意大利 +39", "id":"39"},
+          {"value":"罗马尼亚 +40", "id":"40"},
+          {"value":"瑞士 +41", "id":"41"},
+          {"value":"奥地利 +43", "id":"43"},
+          {"value":"丹麦 +45", "id":"45"},
+          {"value":"瑞典 +46", "id":"46"},
+          {"value":"挪威 +47", "id":"47"},
+          {"value":"波兰 +48", "id":"48"},
+          {"value":"秘鲁 +51", "id":"51"},
+          {"value":"墨西哥 +52", "id":"52"},
+          {"value":"古巴 +53", "id":"53"},
+          {"value":"阿根廷 +54", "id":"54"},
+          {"value":"巴西 +55", "id":"55"},
+          {"value":"智利 +56", "id":"56"},
+          {"value":"哥伦比亚 +57", "id":"57"},
+          {"value":"委内瑞拉 +58", "id":"58"},
+          {"value":"印度尼西亚 +62", "id":"62"},
+          {"value":"菲律宾 +63", "id":"63"},
+          {"value":"新西兰 +64", "id":"64"},
+          {"value":"泰国 +66", "id":"66"},
+          {"value":"韩国 +82", "id":"82"},
+          {"value":"越南 +84", "id":"84"},
+          {"value":"土耳其 +90", "id":"90"},
+          {"value":"印度 +91", "id":"91"},
+          {"value":"巴基斯坦 +92", "id":"92"},
+          {"value":"阿富汗 +93", "id":"93"},
+          {"value":"斯里兰卡", "id":"94"},
+          {"value":"缅甸 +95", "id":"95"},
+          {"value":"伊朗", "id":"98"},
+          {"value":"摩洛哥", "id":"212"},
+          {"value":"阿尔及利亚", "id":"213"},
+          {"value":"突尼斯", "id":"216"},
+          {"value":"利比亚", "id":"218"},
+          {"value":"冈比亚", "id":"220"},
+          {"value":"塞内加尔", "id":"221"},
+          {"value":"马里", "id":"223"},
+          {"value":"几内亚", "id":"224"},
+          {"value":"科特迪瓦", "id":"225"},
+          {"value":"布基纳法索", "id":"226"},
+          {"value":"尼日尔", "id":"227"},
+          {"value":"多哥", "id":"228"},
+          {"value":"贝宁", "id":"229"},
+          {"value":"毛里求斯", "id":"230"},
+          {"value":"利比里亚", "id":"231"},
+          {"value":"塞拉利昂", "id":"232"},
+          {"value":"加纳", "id":"233"},
+          {"value":"尼日利亚", "id":"234"},
+          {"value":"乍得", "id":"235"},
+          {"value":"中非共和国", "id":"236"},
+          {"value":"喀麦隆", "id":"237"},
+          {"value":"圣多美和普林西比", "id":"239"},
+          {"value":"加蓬", "id":"241"},
+          {"value":"刚果民主共和国", "id":"243"},
+          {"value":"安哥拉", "id":"244"},
+          {"value":"阿森松岛", "id":"247"},
+          {"value":"塞舌尔", "id":"248"},
+          {"value":"苏丹", "id":"249"},
+          {"value":"埃塞俄比亚", "id":"251"},
+          {"value":"索马里", "id":"252"},
+          {"value":"吉布提", "id":"253"},
+          {"value":"肯尼亚", "id":"254"},
+          {"value":"坦桑尼亚", "id":"255"},
+          {"value":"乌干达", "id":"256"},
+          {"value":"布隆迪", "id":"257"},
+          {"value":"莫桑比克", "id":"258"},
+          {"value":"赞比亚", "id":"260"},
+          {"value":"马达加斯加", "id":"261"},
+          {"value":"津巴布韦", "id":"263"},
+          {"value":"纳米比亚", "id":"264"},
+          {"value":"马拉维", "id":"265"},
+          {"value":"莱索托", "id":"266"},
+          {"value":"博茨瓦纳", "id":"267"},
+          {"value":"斯威士兰", "id":"268"},
+          {"value":"直布罗陀", "id":"350"},
+          {"value":"葡萄牙", "id":"351"},
+          {"value":"卢森堡", "id":"352"},
+          {"value":"爱尔兰", "id":"353"},
+          {"value":"冰岛", "id":"354"},
+          {"value":"阿尔巴尼亚", "id":"355"},
+          {"value":"马耳他", "id":"356"},
+          {"value":"塞浦路斯", "id":"357"},
+          {"value":"芬兰", "id":"358"},
+          {"value":"保加利亚", "id":"359"},
+          {"value":"立陶宛", "id":"370"},
+          {"value":"拉脱维亚", "id":"371"},
+          {"value":"爱沙尼亚", "id":"372"},
+          {"value":"摩尔多瓦", "id":"373"},
+          {"value":"亚美尼亚", "id":"374"},
+          {"value":"白俄罗斯", "id":"375"},
+          {"value":"安道尔共和国", "id":"376"},
+          {"value":"摩纳哥", "id":"377"},
+          {"value":"圣马力诺", "id":"378"},
+          {"value":"乌克兰", "id":"380"},
+          {"value":"斯洛文尼亚", "id":"386"},
+          {"value":"捷克", "id":"420"},
+          {"value":"斯洛伐克", "id":"421"},
+          {"value":"列支敦士登", "id":"423"},
+          {"value":"伯利兹", "id":"501"},
+          {"value":"瓜地马拉", "id":"502"},
+          {"value":"萨尔瓦多", "id":"503"},
+          {"value":"洪都拉斯", "id":"504"},
+          {"value":"尼加拉瓜", "id":"505"},
+          {"value":"哥斯达黎加", "id":"506"},
+          {"value":"巴拿马", "id":"507"},
+          {"value":"海地", "id":"509"},
+          {"value":"玻利维亚", "id":"591"},
+          {"value":"圭亚那", "id":"592"},
+          {"value":"厄瓜多尔", "id":"593"},
+          {"value":"法属圭亚那", "id":"594"},
+          {"value":"巴拉圭", "id":"595"},
+          {"value":"马提尼克", "id":"596"},
+          {"value":"苏里南", "id":"597"},
+          {"value":"乌拉圭", "id":"598"},
+          {"value":"文莱", "id":"673"},
+          {"value":"巴布亚新几内亚", "id":"675"},
+          {"value":"汤加", "id":"676"},
+          {"value":"所罗门群岛", "id":"677"},
+          {"value":"斐济", "id":"679"},
+          {"value":"库克群岛", "id":"682"},
+          {"value":"法属波利尼西亚", "id":"689"},
+          {"value":"柬埔寨", "id":"855"},
+          {"value":"老挝", "id":"856"},
+          {"value":"孟加拉国", "id":"880"},
+          {"value":"马尔代夫", "id":"960"},
+          {"value":"黎巴嫩", "id":"961"},
+          {"value":"约旦", "id":"962"},
+          {"value":"叙利亚", "id":"963"},
+          {"value":"伊拉克", "id":"964"},
+          {"value":"科威特", "id":"965"},
+          {"value":"沙特阿拉伯", "id":"966"},
+          {"value":"也门", "id":"967"},
+          {"value":"阿曼", "id":"968"},
+          {"value":"阿拉伯联合酋长国", "id":"971"},
+          {"value":"以色列", "id":"972"},
+          {"value":"巴林", "id":"973"},
+          {"value":"卡塔尔", "id":"974"},
+          {"value":"蒙古", "id":"976"},
+          {"value":"尼泊尔", "id":"977"},
+          {"value":"塔吉克斯坦", "id":"992"},
+          {"value":"土库曼斯坦", "id":"993"},
+          {"value":"阿塞拜疆", "id":"994"},
+          {"value":"格鲁吉亚", "id":"995"},
+          {"value":"吉尔吉斯斯坦", "id":"996"},
+          {"value":"乌兹别克斯坦", "id":"998"},
+          {"value":"巴哈马", "id":"1242"},
+          {"value":"巴巴多斯", "id":"1246"},
+          {"value":"安圭拉岛", "id":"1264"},
+          {"value":"安提瓜和巴布达", "id":"1268"},
+          {"value":"开曼群岛", "id":"1345"},
+          {"value":"百慕大群岛", "id":"1441"},
+          {"value":"格林纳达", "id":"1473"},
+          {"value":"蒙特塞拉特岛", "id":"1664"},
+          {"value":"关岛", "id":"1671"},
+          {"value":"圣露西亚", "id":"1758"},
+          {"value":"波多黎各", "id":"1787"},
+          {"value":"多明尼加共和国", "id":"1809"},
+          {"value":"特立尼达和多巴哥", "id":"1868"},
+          {"value":"牙买加", "id":"1876"},
+          {"value":"塞尔维亚共和国", "id":"381"},
+          {"value":"毛里塔尼亚", "id":"222"}
+        ]
+      },
+      "levelprompt": {
+        "count": "4",
+        "enum": [
+            { "id":"C1", "value":"您是C1类风险承受能力投资者，适配R1风险等级的产品或服务；"},
+            { "id":"C2", "value":"您是C2类风险承受能力投资者，适配R1、R2风险等级的产品或服务；"},
+            { "id":"C3", "value":"您是C3类风险承受能力投资者，适配R1、R2、R3风险等级的产品或服务；"},
+            { "id":"C4", "value":"您是C4类风险承受能力投资者，适配R1、R2、R3、R4风险等级的产品或服务；"},
+            { "id":"C5", "value":"您是C5类风险承受能力投资者，适配R1、R2、R3、R4、R5风险等级的产品或服务；"}
+        ]
+      },
+      "businesstype": {
+        "count": "5",
+        "enum": [
+            { "clienttype":"0","investortype":"1",  "value":"72BB493737751E85E0530100007F1D9D"},
+            { "clienttype":"0","investortype":"2",  "value":"72BB3B1552501671E0530100007F8412"},
+            { "clienttype":"1","investortype":"1",  "value":"735D9CA0A92F0B90E050F30A1B8D2731"},
+            { "clienttype":"1","investortype":"2",  "value":"735DCDF65381EE76E050F30A1B8D2859"},
+            { "clienttype":"3","investortype":"2",  "value":"72BEC5418C505E59E0530100007FA3BF"}
+        ]
+      },
+
+      "openaccountidtype": {
+        "count": "20",
+        "enum": [
+          {
+            "id": "1",
+            "value": "中国公民身份证",
+            "open": false
+          },
+          {
+            "id": "52",
+            "value": "统一社会信用代码",
+            "open": false
+          },
+          {
+            "id": "50",
+            "value": "组织机构代码",
+            "open": false
+          },
+          {
+            "id": "15",
+            "value": "外国人永久居留证",
+            "open": false
+          },
+          
+          {
+            "id": "6",
+            "value": "护照",
+            "open": false
+          },
+          {
+            "id": "7",
+            "value": "台湾往来大陆通行证",
+            "open": false
+          },
+          {
+            "id": "16",
+            "value": "港澳永久居住证",
+            "open": false
+          },
+          {
+            "id": "17",
+            "value": "港澳台居民居留证",
+            "open": false
+          },
+          {
+            "id": "x",
+            "value": "其他证件",
+            "open": false
+          }
+        ]
+      }
+      
+      
+
+  }
+  
+
+
+

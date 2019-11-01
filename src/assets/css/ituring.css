@@ -8969,7 +8969,7 @@ body {
 }
 }@media only screen and (min-width:768px) {
 	.layout-head {
-	position:fixed;
+	/* position:fixed; */
 	top:0;
 	left:0;
 	right:0;

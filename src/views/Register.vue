@@ -1,33 +1,79 @@
 <template>
-<div style="margin:0; padding:0;">
-    <top-bar></top-bar>
-    <div class="container page-register">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-2 register-form">
-                <register></register>
-            </div>
-        </div>
-    </div>
-    <div id="footer">
+    <el-container  direction="vertical">
+        <top-bar></top-bar>
+        <el-main>
+            <el-row>
+                <el-col :xs="24" :sm="8" :md="8" :lg="8" :offset="8">
+                    <el-form :rules="rules" ref="form" :model="form" label-width="80px" label-position="right" size="medium">
+                        <el-divider content-position="right"><h4>新会员注册</h4></el-divider>
+                        <el-row>
+                            <el-col :xs="24" :sm="16" :md="16" :lg="16">
+                                <el-form-item label="邮箱" prop="email" >
+                                    <el-input v-model="form.email" placeholder="邮箱"></el-input>
+                                </el-form-item>
+                            </el-col>
+                        </el-row>
+                        <el-row>
+                            <el-col :xs="24" :sm="16" :md="16" :lg="16">
+                                <el-form-item label="昵称" prop="userName">
+                                    <el-input v-model="form.nickname"  placeholder="昵称"></el-input>
+                                </el-form-item>
+                            </el-col>
+                        </el-row>
+                        <el-row>
+                            <el-col :xs="24" :sm="16" :md="16" :lg="16">
+                                <el-form-item label="密码" prop="userIdNo">
+                                    <el-input v-model="form.password"  placeholder="密码"></el-input>
+                                </el-form-item>
+                            </el-col>
+                        </el-row>
+                        <el-row>
+                            <el-col :xs="24" :sm="16" :md="16" :lg="16">
+                                <el-form-item label="确认密码" prop="userIdNo">
+                                    <el-input v-model="form.repassword"  placeholder="确认密码"></el-input>
+                                </el-form-item>
+                            </el-col>
+                        </el-row>
+
+                        <el-row>
+                            <el-col :xs="24" :sm="16" :md="16" :lg="16">
+                                <el-form-item label="验证码" prop="verificationCode">
+                                    <el-input v-model="form.verificationCode"  placeholder="验证码"></el-input>
+                                </el-form-item>
+                            </el-col>
+                        </el-row>
+
+                        <el-row>
+                            <el-col :xs="24" :sm="16" :md="16" :lg="16">
+                                <el-form-item label="" prop="verificationCode" style="text-align: left;">
+                                    <el-checkbox v-model="form.readbook"  true-label="1" false-label="0">已阅读并同意</el-checkbox>
+                                    <el-link type="warning" :underline="false"  @click="drawer = true">会员协议</el-link>
+                                </el-form-item>
+                            </el-col>
+                        </el-row>
+                        
+                        <el-button type="primary" @click="formsubmit('form')">提交</el-button>
+                    </el-form>
+                </el-col>
+            </el-row>
+        </el-main>
         <foot-bar></foot-bar>
-    </div>
-</div>
+    </el-container>
 </template>
-
-
 <script>
-import Register from "./../components/Register.vue";
 export default {
-    components: {
-        Register
-    },
     data() {
         return {
             query: {
             },
 
             form: {
-                
+                email: "",
+                nickname: "",
+                password: "",
+                repassword: "",
+                verificationCode: "",
+                readbook: ""
             },
             rules: {
                 

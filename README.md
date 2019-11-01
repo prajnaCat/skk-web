@@ -1,4 +1,4 @@
-# unicenter-web
+# skk-web
 
 ## Project setup
 ```

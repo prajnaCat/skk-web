@@ -8969,7 +8969,7 @@ body {
 }
 }@media only screen and (min-width:768px) {
 	.layout-head {
-	/* position:fixed; */
+	position:fixed;
 	top:0;
 	left:0;
 	right:0;
@@ -14796,4 +14796,16 @@ ul.book-nav li.active {
 .addr-card .addr-details span {
 	color:#666;
 	margin-right:15px
+}
+
+/* ------------------------elment自定义样式---------------------------- */
+
+.el-button--primary {
+    color: #FFF;
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
 }
